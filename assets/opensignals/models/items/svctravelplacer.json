@@ -1,0 +1,33 @@
+{
+	"credit": "Made with Blockbench by SkywalkerValle",
+	"textures": {
+		"0": "opensignals:items/svc/svctravelplacer",
+		"particle": "opensignals:items/svc/svctravelplacer"
+	},
+	"elements": [
+		{
+			"from": [2, 2, 8],
+			"to": [13, 13, 9],
+			"faces": {
+				"north": {"uv": [1, 1, 15, 15], "texture": "#0"},
+				"east": {"uv": [0.5, 10.5, 1, 13], "texture": "#0"},
+				"south": {"uv": [1, 1, 15, 15], "texture": "#0"},
+				"west": {"uv": [0.5, 1, 0, 4], "texture": "#0"},
+				"up": {"uv": [0, 0, 6, 0.5], "texture": "#0"},
+				"down": {"uv": [0, 15.5, 5, 15], "texture": "#0"}
+			}
+		},
+		{
+			"from": [6.5, 0, 8],
+			"to": [8.5, 2, 9],
+			"faces": {
+				"north": {"uv": [6.5, 15.5, 9.5, 16], "texture": "#0"},
+				"east": {"uv": [6.5, 15.5, 9.5, 16], "texture": "#0"},
+				"south": {"uv": [6.5, 15.5, 9.5, 16], "texture": "#0"},
+				"west": {"uv": [6.5, 15.5, 9.5, 16], "texture": "#0"},
+				"up": {"uv": [6.5, 15.5, 9.5, 16], "texture": "#0"},
+				"down": {"uv": [6.5, 15.5, 9.5, 16], "texture": "#0"}
+			}
+		}
+	]
+}

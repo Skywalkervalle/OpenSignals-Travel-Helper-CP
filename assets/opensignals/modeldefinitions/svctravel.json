@@ -1,0 +1,19 @@
+{
+    "textures":{
+        "lamp_white":"opensignals:blocks/svc/travel_lamps/lamp_white",
+        "lamp_travel":"opensignals:blocks/svc/travel_lamps/lamp_travel",
+        "lamp_zp9":"opensignals:blocks/svc/travel_lamps/zp9"
+    },
+    "models":
+    {
+        "svc/travelhelper/travelindicatorexit":
+        {   
+                    "textures":[
+                        {
+                            "blockstate": "with(TRAVELINDICATOR.OFF)"
+                        }
+                    ]
+        }
+    }
+
+}
