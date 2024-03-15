@@ -117,20 +117,19 @@
 			}
 		},
 		{
-			"name": "signal_front",
+			"name": "lamp_travel",
 			"from": [5.5, 0, 6.9],
 			"to": [10.5, 7, 6.9],
 			"faces": {
-				"north": {"uv": [0, 0, 5, 7], "texture": "#3"}
+				"north": {"uv": [0, 0, 5, 7], "texture": "#lamp_travel"}
 			}
 		},
 		{
-			"name": "signal_back",
+			"name": "lamp_travel",
 			"from": [5.5, 0, 9.1],
 			"to": [10.5, 7, 9.1],
 			"faces": {
-				"north": {"uv": [0, 0, 10, 14], "texture": "#missing"},
-				"south": {"uv": [0, 0, 5, 7], "texture": "#3"}
+				"south": {"uv": [0, 0, 5, 7], "texture": "#lamp_travel"}
 			}
 		}
 	],

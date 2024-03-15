@@ -9,7 +9,7 @@
 	},
 	"elements": [
 		{
-			"name": "signal_front",
+			"name": "lamp_zp9",
 			"from": [5.5, 0, 4.8],
 			"to": [10.5, 7, 4.8],
 			"faces": {
@@ -17,7 +17,7 @@
 			}
 		},
 		{
-			"name": "signal_back",
+			"name": "lamp_zp9",
 			"from": [5.5, 0, 8.2],
 			"to": [10.5, 7, 8.2],
 			"faces": {
