@@ -10,8 +10,7 @@
         "VERTICALINDICATOREXIT",
         "HORIZONTALINDICATOR",
         "HORIZONTALINDICATOREXIT",
-        "BRAKEINDICATOR",
-        "BRAKEINDICATOREXIT"
+        "BRAKEINDICATOR"
     ],
     "SVCTRAVELINDICATOR":
     [
@@ -49,8 +48,8 @@
     "SVCBRAKEINDICATOR":
     [
         "OFF",
-        "ZP6",
-        "ZP7",
-        "ZP8"
+        "BRAKE",
+        "RELEASE",
+        "INORDER"
     ]
 }

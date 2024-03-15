@@ -10,10 +10,24 @@
         {   
                     "textures":[
                         {
-                            "blockstate": "with(TRAVELINDICATOR.OFF)"
+                            "blockstate": "with(TRAVELINDICATOR.OFF) || !has(SVCTRAVELTYPE)"
+                        },
+                        {
+                            "blockstate": "with(TRAVELINDICATOR.TRAVEL) || !has(SVCTRAVELTYPE)",
+                            "retexture": {
+                                "lamp_travel": "lamp_travel"
+                                }
                         }
-                    ]
-        }
+                    ],
+                    "y": 0
+        },
+        "svc/travelhelper/":
+                    "textures": [
+                        {
+                        ""
+                        },
+                    ],
+                        
+                ]
     }
-
 }
