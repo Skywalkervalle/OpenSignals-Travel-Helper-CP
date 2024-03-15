@@ -4,6 +4,7 @@
 		"0": "opensignals:blocks/svc/black",
 		"1": "opensignals:blocks/svc/shield_black",
 		"3": "opensignals:blocks/svc/lamps/off",
+		"lamp_travel": "opensignals:blocks/svc/lamps/off",
 		"particle": "opensignals:blocks/svc/black"
 	},
 	"elements": [
