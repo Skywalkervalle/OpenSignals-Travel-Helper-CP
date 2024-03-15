@@ -7,27 +7,46 @@
     "models":
     {
         "svc/travelhelper/travelindicatorexit":
-        {   
+            {   
                     "textures":[
                         {
-                            "blockstate": "with(TRAVELINDICATOR.OFF) || !has(SVCTRAVELTYPE)"
+                            "blockstate": "with(TRAVELINDICATOREXIT.OFF) || !has(SVCTRAVELTYPE)"
                         },
                         {
-                            "blockstate": "with(TRAVELINDICATOR.TRAVEL) || !has(SVCTRAVELTYPE)",
+                            "blockstate": "with(TRAVELINDICATOREXIT.TRAVEL) || !has(SVCTRAVELTYPE)",
                             "retexture": {
                                 "lamp_travel": "lamp_travel"
                                 }
-                        }
+                        },
+                        {
+                            "blockstate": "with(TRAVELINDICATOREXIT.ZP9) || !has(SVCTRAVELTYPE)",
+                            "retexture": {
+                                "lamp_travel": "lamp_zp9"
+                                }
+                        } 
                     ],
                     "y": 0
-        },
-        "svc/travelhelper/":
+            },
+        "svc/travelhelper/travelindicator":
+            {
                     "textures": [
                         {
-                        ""
+                        "blockstate": "with(TRAVELINDICATOR.OFF) || !has(SVCTRAVELTYPE)"
                         },
-                    ]
-                        
-                
+                        {
+                        "blockstate": "with(TRAVELINDICATOR.TRAVEL) || !has(SVCTRAVELTYPE)",
+                        "retexture": {
+                            "lamp_travel": "lamp_travel"
+                            }
+                        },
+                        {
+                        "blockstate": "with(TRAVELINDICATOR.ZP9) || !has(SVCTRAVELTYPE)",
+                        "retexture": {
+                            "lamp_travel": "lamp_zp9"
+                            }
+                        }   
+                    ],
+                    "y": 0
+                }
     }
 }

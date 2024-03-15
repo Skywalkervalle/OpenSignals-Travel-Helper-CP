@@ -4,8 +4,6 @@
         "OFF",
         "TRAVELINDICATOR",
         "TRAVELINDICATOREXIT",
-        "ZP9INDICATOR",
-        "ZP9INDICATOREXIT",
         "VERTICALINDICATOR",
         "VERTICALINDICATOREXIT",
         "HORIZONTALINDICATOR",
@@ -15,21 +13,13 @@
     "SVCTRAVELINDICATOR":
     [
         "OFF",
-        "TRAVEL"
+        "TRAVEL",
+        "ZP9"
     ],
     "SVCTRAVELINDICATOREXIT":
     [
         "OFF",
-        "TRAVEL"
-    ],
-    "SVCZP9INDICATOR":
-    [
-        "OFF",
-        "ZP9"
-    ],
-    "SVCZP9INDICATOREXIT":
-    [
-        "OFF",
+        "TRAVEL",
         "ZP9"
     ],
     
