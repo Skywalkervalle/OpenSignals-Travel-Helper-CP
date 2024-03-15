@@ -20,72 +20,63 @@
         "enumClass": "SVCTRAVELINDICATOR",
         "defaultState": "OFF",
         "changeableStage": "APISTAGE_NONE_CONFIG",
-        "autoname": true,
-        "dependencies": "check(SVCTRAVELINDICATOR.TRAVELINDICATOR)"
+        "autoname": true
     },
     {
         "name": "svctravelindicatorexit",
         "enumClass": "SVCTRAVELINDICATOREXIT",
         "defaultState": "OFF",
         "changeableStage": "APISTAGE_NONE_CONFIG",
-        "autoname": true,
-        "dependencies": "check(SVCTRAVELINDICATOR.TRAVELINDICATOREXIT)"
+        "autoname": true
     },
     {
         "name": "svczp9indicator",
         "enumClass": "SVCZP9INDICATOR",
         "defaultState": "OFF",
         "changeableStage": "APISTAGE_NONE_CONFIG",
-        "autoname": true,
-        "dependencies": "check(SVCTRAVELTYPE.ZP9INDICATOR)"
+        "autoname": true
     },
     {
         "name": "svczp9indicatorexit",
         "enumClass": "SVCZP9INDICATOREXIT",
         "defaultState": "OFF",
         "changeableStage": "APISTAGE_NONE_CONFIG",
-        "autoname": true,
-        "dependencies": "check(SVCTRAVELTYPE.ZP9INDICATOREXIT)"
+        "autoname": true
     },
     {
         "name": "svctravelverticalindicator",
         "enumClass": "SVCVERTICALINDICATOR",
         "defaultState": "OFF",
         "changeableStage": "APISTAGE_NONE_CONFIG",
-        "autoname": true,
-        "dependencies": "check(SVCTRAVELTYPE.VERTICALINDICATOR)"
+        "autoname": true
     },
     {
         "name": "svctravelverticalindicatorexit",
         "enumClass": "SVCVERTICALINDICATOREXIT",
         "defaultState": "OFF",
         "changeableStage": "APISTAGE_NONE_CONFIG",
-        "autoname": true,
-        "dependencies": "check(SVCTRAVELTYPE.VERTICALINDICATOREXIT)"
+        "autoname": true
     },
     {
         "name": "svctravelhorizontalindicator",
         "enumClass": "SVCHORIZONTALINDICATOR",
         "defaultState": "OFF",
         "changeableStage": "APISTAGE_NONE_CONFIG",
-        "autoname": true,
-        "dependencies": "check(SVCTRAVELTYPE.HORIZONTALINDICATOR)"
+        "autoname": true
     },
     {
         "name": "svctravelhorizontalindicatorexit",
         "enumClass": "SVCHORIZONTALINDICATOREXIT",
         "defaultState": "OFF",
         "changeableStage": "APISTAGE_NONE_CONFIG",
-        "autoname": true,
-        "dependencies": "check(SVCTRAVELTYPE.HORIZONTALINDICATOREXIT)"
+        "autoname": true
     },
     {
         "name": "svctravelhorizontalindicator",
         "enumClass": "SVCHORIZONTALINDICATOR",
         "defaultState": "OFF",
         "changeableStage": "APISTAGE_NONE_CONFIG",
-        "autoname": true,
-        "dependencies": "check(SVCTRAVELTYPE.HORIZONTALINDICATOR)"
+        "autoname": true
     },
     {
         "name": "brakeindicator",
@@ -93,7 +84,6 @@
         "defaultState": "OFF",
         "changeableStage": "APISTAGE_NONE_CONFIG",
         "autoname": true,
-        "dependencies": "check(SVCTRAVELTYPE.BRAKEINDICATOR)"
     }
     ]
 }
