@@ -83,7 +83,7 @@
         "enumClass": "BRAKEINDICATOR",
         "defaultState": "OFF",
         "changeableStage": "APISTAGE_NONE_CONFIG",
-        "autoname": true,
+        "autoname": true
     }
     ]
 }
