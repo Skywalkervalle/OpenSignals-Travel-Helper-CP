@@ -82,7 +82,7 @@
 			}
 		},
 		{
-			"name": "signal",
+			"name": "lamp_travel",
 			"from": [5.5, 0, 4.9],
 			"to": [10.5, 7, 4.9],
 			"faces": {

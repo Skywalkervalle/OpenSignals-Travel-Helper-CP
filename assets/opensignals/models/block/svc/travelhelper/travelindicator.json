@@ -117,7 +117,7 @@
 			}
 		},
 		{
-			"name": "lamp_travel",
+			"name": "lamp_travel_front",
 			"from": [5.5, 0, 6.9],
 			"to": [10.5, 7, 6.9],
 			"faces": {
@@ -125,7 +125,7 @@
 			}
 		},
 		{
-			"name": "lamp_travel",
+			"name": "lamp_travel_back",
 			"from": [5.5, 0, 9.1],
 			"to": [10.5, 7, 9.1],
 			"faces": {
