@@ -21,7 +21,7 @@
         "defaultState": "OFF",
         "changeableStage": "APISTAGE_NONE_CONFIG",
         "autoname": true,
-        "dependencies": "check(SVCTRAVELTYPE.SVCTRAVELINDICATOR)"
+        "dependencies": "check(SVCTRAVELTYPE.SVCTRAVEL_INDICATOR)"
     },
     {
         "name": "svctravelindicatorexit",
@@ -29,7 +29,7 @@
         "defaultState": "OFF",
         "changeableStage": "APISTAGE_NONE_CONFIG",
         "autoname": true,
-        "dependencies": "check(SVCTRAVELTYPE.SVCTRAVELINDICATOREXIT)"
+        "dependencies": "check(SVCTRAVELTYPE.SVCTRAVEL_INDICATOREXIT)"
     },
     {
         "name": "svcverticalindicator",
@@ -37,7 +37,7 @@
         "defaultState": "OFF",
         "changeableStage": "APISTAGE_NONE_CONFIG",
         "autoname": true,
-        "dependencies": "check(SVCTRAVELTYPE.SVCVERTICALINDICATOR)"
+        "dependencies": "check(SVCTRAVELTYPE.SVCVERTICAL_INDICATOR)"
     },
     {
         "name": "svcverticalindicatorexit",
@@ -45,7 +45,7 @@
         "defaultState": "OFF",
         "changeableStage": "APISTAGE_NONE_CONFIG",
         "autoname": true,
-        "dependencies": "check(SVCTRAVELTYPE.SVCVERTICALINDICATOREXIT)"
+        "dependencies": "check(SVCTRAVELTYPE.SVCVERTICAL_INDICATOREXIT)"
     },
     {
         "name": "svchorizontalindicator",
@@ -53,7 +53,7 @@
         "defaultState": "OFF",
         "changeableStage": "APISTAGE_NONE_CONFIG",
         "autoname": true,
-        "dependencies": "check(SVCTRAVELTYPE.SVCHORIZONTALINDICATOR)"
+        "dependencies": "check(SVCTRAVELTYPE.SVCHORIZONTAL_INDICATOR)"
     },
     {
         "name": "svchorizontalindicatorexit",
@@ -61,7 +61,7 @@
         "defaultState": "OFF",
         "changeableStage": "APISTAGE_NONE_CONFIG",
         "autoname": true,
-        "dependencies": "check(SVCTRAVELTYPE.SVCHORIZONTALINDICATOREXIT)"
+        "dependencies": "check(SVCTRAVELTYPE.SVCHORIZONTAL_INDICATOREXIT)"
     },
     {
         "name": "scvbrakeindicator",
@@ -69,7 +69,7 @@
         "defaultState": "OFF",
         "changeableStage": "APISTAGE_NONE_CONFIG",
         "autoname": true,
-        "dependencies": "check(SVCTRAVELTYPE.SVCBRAKEINDICATOR"
+        "dependencies": "check(SVCTRAVELTYPE.SVCBRAKE_INDICATOR"
     }
     ]
 }
