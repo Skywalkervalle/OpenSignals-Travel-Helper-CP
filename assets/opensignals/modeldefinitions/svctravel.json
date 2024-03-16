@@ -42,7 +42,7 @@
                             }
                         },
                         {
-                        "blockstate": "with(SVCTRAVELINDICATOR.ZP9) && (with(SCVTRAVELTYPE.SVCTRAVEL_INDICATOR) || !has(SVCTRAVELTYPE))",
+                        "blockstate": "with(SVCTRAVELINDICATOR.ZP9) && (with(SVCTRAVELTYPE.SVCTRAVEL_INDICATOR) || !has(SVCTRAVELTYPE))",
                         "retexture": {
                             "lamp_travel_front": "lamp_zp9",
                             "lamp_travel_back": "lamp_zp9"
@@ -147,22 +147,22 @@
             {
                 "textures":[
                     {
-                    "blockstate": "with(SVCVERTICALINDICATOREXIT.OFF) && (with(SVCTRAVELTYPE.SVCVERTICALINDICATOREXIT) || !has(SVCTRAVELTYPE))"
+                    "blockstate": "with(SVCVERTICALINDICATOREXIT.OFF) && (with(SVCTRAVELTYPE.SVCVERTICAL_INDICATOREXIT) || !has(SVCTRAVELTYPE))"
                     },
                     {
-                    "blockstate": "with(SVCVERTICALINDICATOREXIT.TRAVEL) && (with(SVCTRAVELTYPE.SVCVERTICALINDICATOREXIT) || !has(SVCTRAVELTYPE))",
+                    "blockstate": "with(SVCVERTICALINDICATOREXIT.TRAVEL) && (with(SVCTRAVELTYPE.SVCVERTICAL_INDICATOREXIT) || !has(SVCTRAVELTYPE))",
                     "retexture": {
                         "travelindicator": "lamp_travel"
                         }
                     },
                     {
-                    "blockstate": "with(SVCVERTICALINDICATOREXIT.ZP9) && (with(SVCTRAVELTYPE.SVCVERTICALINDICATOREXIT) || !has(SVCTRAVELTYPE))",
+                    "blockstate": "with(SVCVERTICALINDICATOREXIT.ZP9) && (with(SVCTRAVELTYPE.SVCVERTICAL_INDICATOREXIT) || !has(SVCTRAVELTYPE))",
                     "retexture": {
                         "Zp9": "lamp_zp9"
                     }
                     },
                     {
-                    "blockstate": "with(SVCVERTICALINDICATOREXIT.BOTH) && (with(SVCTRAVELTYPE.SVCVERTICALINDICATOREXIT) || !has(SVCTRAVELTYPE))",
+                    "blockstate": "with(SVCVERTICALINDICATOREXIT.BOTH) && (with(SVCTRAVELTYPE.SVCVERTICAL_INDICATOREXIT) || !has(SVCTRAVELTYPE))",
                     "retexture": {
                         "travelindicator": "lamp_travel",
                         "Zp9": "lamp_zp9"
@@ -175,23 +175,23 @@
             {
                 "textures": [
                 {
-                "blockstate": "with(SVCBRAKEINDICATOR.OFF && (with(SVCTRAVELTYPE.SVCBRAKEINDICATOR) || !has(SVCTRAVELTYPE))"
+                "blockstate": "with(SVCBRAKEINDICATOR.OFF && (with(SVCTRAVELTYPE.SVCBRAKE_INDICATOR) || !has(SVCTRAVELTYPE))"
                 },
                 {
-                "blockstate": "with(SVCBRAKEINDICATOR.BRAKE && (with(SVCTRAVELTYPE.SVCBRAKEINDICATOR) || !has(SVCTRAVELTYPE))",
+                "blockstate": "with(SVCBRAKEINDICATOR.BRAKE && (with(SVCTRAVELTYPE.SVCBRAKE_INDICATOR) || !has(SVCTRAVELTYPE))",
                 "retexture": {
                     "up": "lamp_white"
                 }
                 },
                 {
-                "blockstate": "with(SVCBRAKEINDICATOR.RELEASE && (with(SVCTRAVELTYPE.SVCBRAKEINDICATOR) || !has(SVCTRAVELTYPE))",
+                "blockstate": "with(SVCBRAKEINDICATOR.RELEASE && (with(SVCTRAVELTYPE.SVCBRAKE_INDICATOR) || !has(SVCTRAVELTYPE))",
                 "retexture": {
                     "down": "lamp_white",
                     "middle": "lamp_white"
                 }
                 },
                 {
-                "blockstate": "with(SVCBRAKEINDICATOR.INORDER && (with(SVCTRAVELTYPE.SVCBRAKEINDICATOR) || !has(SVCTRAVELTYPE))",
+                "blockstate": "with(SVCBRAKEINDICATOR.INORDER && (with(SVCTRAVELTYPE.SVCBRAKE_INDICATOR) || !has(SVCTRAVELTYPE))",
                 "retexture": {
                     "down": "lamp_white",
                     "middle": "lamp_white",
