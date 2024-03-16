@@ -58,13 +58,6 @@
         "autoname": true
     },
     {
-        "name": "svctravelhorizontalindicator",
-        "enumClass": "SVCHORIZONTALINDICATOR",
-        "defaultState": "OFF",
-        "changeableStage": "APISTAGE_NONE_CONFIG",
-        "autoname": true
-    },
-    {
         "name": "brakeindicator",
         "enumClass": "BRAKEINDICATOR",
         "defaultState": "OFF",
