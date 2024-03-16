@@ -4,7 +4,7 @@
 	"textures": {
 		"1": "opensignals:blocks/svc/shield_black",
 		"particle": "opensignals:blocks/svc/shield_black",
-		"lamp_white": "opensignals:blocks/lamps/lamp_dark"
+		"lamp_white": "opensignals:blocks/svc/lamps/lamp_dark"
 	},
 	"elements": [
 		{

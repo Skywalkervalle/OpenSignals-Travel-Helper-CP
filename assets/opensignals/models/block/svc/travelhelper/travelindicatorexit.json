@@ -3,7 +3,7 @@
 	"textures": {
 		"1": "opensignals:blocks/svc/shield_black",
 		"2": "opensignals:blocks/svc/shield_gray",
-		"3": "opensignals:blocks/svc/lamps/off",
+		"3": "opensignals:blocks/svc/travel_lamps/off",
 		"lamp_travel": "opensignals:blocks/svc/travel_lamps/off",
 		"particle": "opensignals:blocks/svc/black"
 	},
