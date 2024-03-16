@@ -11,16 +11,16 @@
             {   
                     "textures":[
                         {
-                            "blockstate": "with(TRAVELINDICATOREXIT.OFF) || !has(SVCTRAVELTYPE)"
+                            "blockstate": "with(SVCTRAVELINDICATOREXIT.OFF) || !has(SVCTRAVELTYPE)"
                         },
                         {
-                            "blockstate": "with(TRAVELINDICATOREXIT.TRAVEL) || !has(SVCTRAVELTYPE)",
+                            "blockstate": "with(SVCTRAVELINDICATOREXIT.TRAVEL) || !has(SVCTRAVELTYPE)",
                             "retexture": {
                                 "lamp_travel": "lamp_travel"
                                 }
                         },
                         {
-                            "blockstate": "with(TRAVELINDICATOREXIT.ZP9) || !has(SVCTRAVELTYPE)",
+                            "blockstate": "with(SVCTRAVELINDICATOREXIT.ZP9) || !has(SVCTRAVELTYPE)",
                             "retexture": {
                                 "lamp_travel": "lamp_zp9"
                                 }
@@ -32,17 +32,17 @@
             {
                     "textures": [
                         {
-                        "blockstate": "with(TRAVELINDICATOR.OFF) || !has(SVCTRAVELTYPE)"
+                        "blockstate": "with(SVCTRAVELINDICATOR.OFF) || !has(SVCTRAVELTYPE)"
                         },
                         {
-                        "blockstate": "with(TRAVELINDICATOR.TRAVEL) || !has(SVCTRAVELTYPE)",
+                        "blockstate": "with(SVCTRAVELINDICATOR.TRAVEL) || !has(SVCTRAVELTYPE)",
                         "retexture": {
                             "lamp_travel_front": "lamp_travel",
                             "lamp_travel_back": "lamp_travel_doted"
                             }
                         },
                         {
-                        "blockstate": "with(TRAVELINDICATOR.ZP9) || !has(SVCTRAVELTYPE)",
+                        "blockstate": "with(SVCTRAVELINDICATOR.ZP9) || !has(SVCTRAVELTYPE)",
                         "retexture": {
                             "lamp_travel_front": "lamp_zp9",
                             "lamp_travel_back": "lamp_zp9"
