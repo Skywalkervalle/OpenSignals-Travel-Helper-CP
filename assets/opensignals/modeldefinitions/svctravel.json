@@ -47,6 +47,33 @@
                         }   
                     ],
                     "y": 0
-                }
+            },
+        "svc/travelhelper/travelindicatorhorizontal":
+            {
+                    "textures": [
+                        {
+                        "blockstate": "with(SVCHORIZONTALINDICATOR.OFF) || !has(SVCTRAVELTYPE)"  
+                        },
+                        {
+                        "blockstate": "with(SVCHORIZONTALINDICATOR.TRAVEL) || !has(SVCTRAVELTYPE)",
+                        "retexture": {
+                            "lamp_travel": "lamp_travel"
+                            }
+                        },
+                        {
+                        "blockstate": "with(SVCHORIZONTALINDICATOR.ZP9) || !has(SVCTRAVELTYPE)",
+                        "retexture": {
+                            "lamp_travel": "lamp_zp9"
+                        }
+                        },
+                        {
+                        "blockstate": "with(SVCHORIZONTALINDICATOR.BOTH) || !has(SVCTRAVELTYPE)"
+                        "retexture": {
+                            "lamp_travel": "lamp_travel"
+                        }
+                        }
+                    ]
+            }
+                
     }
 }
