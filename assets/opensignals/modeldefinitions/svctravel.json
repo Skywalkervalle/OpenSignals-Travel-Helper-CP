@@ -146,7 +146,7 @@
             "svc/travelhelper/travelindicatorverticalexit":
             {
                 "textures":[
-                {
+                    {
                     "blockstate": "with(SVCVERTICALINDICATOREXIT.OFF) || !has(SVCTRAVELTYPE)"
                     },
                     {
@@ -170,6 +170,35 @@
                     }
                 ],
                 "y": 0
+            },
+            "svc/brakeindicator/brakeindicator":
+            {
+                "textures": [
+                {
+                "blockstate": "with(SVCBRAKEINDICATOR.OFF || !has(SVCTRAVELTYPE)"
+                },
+                {
+                "blockstate": "with(SVCBRAKEINDICATOR.BRAKE || !has(SVCTRAVELTYPE)",
+                "retexture": {
+                    "up": "lamp_white"
+                }
+                },
+                {
+                "blockstate": "with(SVCBRAKEINDICATOR.RELEASE || !has(SVCTRAVELTYPE)",
+                "retexture": {
+                    "down": "lamp_white",
+                    "middle": "lamp_white"
+                }
+                },
+                {
+                "blockstate": "with(SVCBRAKEINDICATOR.INORDER || !has(SVCTRAVELTYPE)",
+                "retexture": {
+                    "down": "lamp_white",
+                    "middle": "lamp_white",
+                    "up": "lamp_white"
+                }
+                }
+                ]
             }
     }
 }
