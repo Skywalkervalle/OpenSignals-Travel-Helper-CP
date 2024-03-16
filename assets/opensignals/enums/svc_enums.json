@@ -33,7 +33,8 @@
     [
         "OFF",
         "TRAVEL",
-        "ZP9"
+        "ZP9",
+        "BOTH"
     ],
     "SVCBRAKEINDICATOR":
     [
