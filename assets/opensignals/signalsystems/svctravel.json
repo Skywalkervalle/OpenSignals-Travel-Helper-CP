@@ -22,7 +22,6 @@
         "changeableStage": "APISTAGE_NONE_CONFIG",
         "autoname": true,
         "dependencies": "check(SVCTRAVELTYPE.SVCTRAVEL_INDICATOR)"
-        
     },
     {
         "name": "svctravelindicatorexit",
