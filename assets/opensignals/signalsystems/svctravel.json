@@ -69,7 +69,7 @@
         "defaultState": "OFF",
         "changeableStage": "APISTAGE_NONE_CONFIG",
         "autoname": true,
-        "dependencies": "check(SVCTRAVELTYPE.SVCBRAKE_INDICATOR"
+        "dependencies": "check(SVCTRAVELTYPE.SVCBRAKE_INDICATOR)"
     }
     ]
 }
