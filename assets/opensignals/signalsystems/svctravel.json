@@ -64,7 +64,7 @@
         "dependencies": "check(SVCTRAVELTYPE.SVCHORIZONTAL_INDICATOREXIT)"
     },
     {
-        "name": "scvbrakeindicator",
+        "name": "svcbrakeindicator",
         "enumClass": "SVCBRAKEINDICATOR",
         "defaultState": "OFF",
         "changeableStage": "APISTAGE_NONE_CONFIG",
