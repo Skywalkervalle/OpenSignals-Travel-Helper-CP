@@ -27,13 +27,15 @@
     [
         "OFF",
         "TRAVEL",
-        "ZP9"
+        "ZP9",
+        "BOTH"
     ],
     "SVCVERTICALINDICATOREXIT":
     [
         "OFF",
         "TRAVEL",
-        "ZP9"
+        "ZP9",
+        "BOTH"
     ],
     "SVCHORIZONTALINDICATOR":
     [
