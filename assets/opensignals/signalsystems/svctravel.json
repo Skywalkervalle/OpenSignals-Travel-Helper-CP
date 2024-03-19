@@ -25,7 +25,7 @@
     },
     {
         "name": "svctravelindicatorexit",
-        "enumClass": "SVCTRAVELINDICATOREXIT",
+        "enumClass": "SVCTRAVELINDICATOR",
         "defaultState": "OFF",
         "changeableStage": "APISTAGE_NONE_CONFIG",
         "autoname": true,
@@ -33,7 +33,7 @@
     },
     {
         "name": "svcverticalindicator",
-        "enumClass": "SVCVERTICALINDICATOR",
+        "enumClass": "SVCBOTHINDICATOR",
         "defaultState": "OFF",
         "changeableStage": "APISTAGE_NONE_CONFIG",
         "autoname": true,
@@ -41,7 +41,7 @@
     },
     {
         "name": "svcverticalindicatorexit",
-        "enumClass": "SVCVERTICALINDICATOREXIT",
+        "enumClass": "SVCBOTHINDICATOR",
         "defaultState": "OFF",
         "changeableStage": "APISTAGE_NONE_CONFIG",
         "autoname": true,
@@ -49,7 +49,7 @@
     },
     {
         "name": "svchorizontalindicator",
-        "enumClass": "SVCHORIZONTALINDICATOR",
+        "enumClass": "SVCBOTHINDICATOR",
         "defaultState": "OFF",
         "changeableStage": "APISTAGE_NONE_CONFIG",
         "autoname": true,
@@ -57,7 +57,7 @@
     },
     {
         "name": "svchorizontalindicatorexit",
-        "enumClass": "SVCHORIZONTALINDICATOREXIT",
+        "enumClass": "SVCBOTHINDICATOR",
         "defaultState": "OFF",
         "changeableStage": "APISTAGE_NONE_CONFIG",
         "autoname": true,

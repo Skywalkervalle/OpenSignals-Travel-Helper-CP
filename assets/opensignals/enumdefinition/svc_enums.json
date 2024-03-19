@@ -16,35 +16,7 @@
         "TRAVEL",
         "ZP9"
     ],
-    "SVCTRAVELINDICATOREXIT":
-    [
-        "OFF",
-        "TRAVEL",
-        "ZP9"
-    ],
-    
-    "SVCVERTICALINDICATOR":
-    [
-        "OFF",
-        "TRAVEL",
-        "ZP9",
-        "BOTH"
-    ],
-    "SVCVERTICALINDICATOREXIT":
-    [
-        "OFF",
-        "TRAVEL",
-        "ZP9",
-        "BOTH"
-    ],
-    "SVCHORIZONTALINDICATOR":
-    [
-        "OFF",
-        "TRAVEL",
-        "ZP9",
-        "BOTH"
-    ],
-    "SVCHORIZONTALINDICATOREXIT":
+    "SVCBOTHINDICATOR":
     [
         "OFF",
         "TRAVEL",
