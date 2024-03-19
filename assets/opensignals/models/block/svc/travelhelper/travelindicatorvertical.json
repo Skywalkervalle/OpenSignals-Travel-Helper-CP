@@ -116,22 +116,6 @@
 			}
 		},
 		{
-			"name": "back",
-			"from": [5.5, 8, 6.95],
-			"to": [10.5, 15, 6.95],
-			"faces": {
-				"north": {"uv": [0, 0, 5, 7], "texture": "#1"}
-			}
-		},
-		{
-			"name": "back",
-			"from": [5.5, 8, 9.05],
-			"to": [10.5, 15, 9.05],
-			"faces": {
-				"south": {"uv": [0, 0, 5, 7], "texture": "#1"}
-			}
-		},
-		{
 			"name": "signal_front_travelindicator",
 			"from": [5.5, 0, 6.9],
 			"to": [10.5, 7, 6.9],
@@ -236,23 +220,6 @@
 				"west": {"uv": [0, 0, 2, 7], "texture": "#0"},
 				"up": {"uv": [0, 0, 0, 0], "texture": "#0"},
 				"down": {"uv": [0, 0, 1, 2], "texture": "#0"}
-			}
-		},
-		{
-			"name": "back",
-			"from": [5.5, 0, 9.05],
-			"to": [10.5, 7, 9.05],
-			"faces": {
-				"north": {"uv": [0, 0, 10, 14], "texture": "#missing"},
-				"south": {"uv": [0, 0, 5, 7], "texture": "#1"}
-			}
-		},
-		{
-			"name": "back",
-			"from": [5.5, 0, 6.95],
-			"to": [10.5, 7, 6.95],
-			"faces": {
-				"north": {"uv": [0, 0, 5, 7], "texture": "#1"}
 			}
 		}
 	],
