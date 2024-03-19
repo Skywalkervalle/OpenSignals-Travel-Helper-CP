@@ -175,23 +175,23 @@
             {
                 "textures": [
                 {
-                "blockstate": "with(SVCBRAKEINDICATOR.OFF && (with(SVCTRAVELTYPE.SVCBRAKE_INDICATOR) || !has(SVCTRAVELTYPE))"
+                "blockstate": "with(SVCBRAKEINDICATOR.OFF) && (with(SVCTRAVELTYPE.SVCBRAKE_INDICATOR) || !has(SVCTRAVELTYPE))"
                 },
                 {
-                "blockstate": "with(SVCBRAKEINDICATOR.BRAKE && (with(SVCTRAVELTYPE.SVCBRAKE_INDICATOR) || !has(SVCTRAVELTYPE))",
+                "blockstate": "with(SVCBRAKEINDICATOR.BRAKE) && (with(SVCTRAVELTYPE.SVCBRAKE_INDICATOR) || !has(SVCTRAVELTYPE))",
                 "retexture": {
                     "up": "lamp_white"
                 }
                 },
                 {
-                "blockstate": "with(SVCBRAKEINDICATOR.RELEASE && (with(SVCTRAVELTYPE.SVCBRAKE_INDICATOR) || !has(SVCTRAVELTYPE))",
+                "blockstate": "with(SVCBRAKEINDICATOR.RELEASE) && (with(SVCTRAVELTYPE.SVCBRAKE_INDICATOR) || !has(SVCTRAVELTYPE))",
                 "retexture": {
                     "down": "lamp_white",
                     "middle": "lamp_white"
                 }
                 },
                 {
-                "blockstate": "with(SVCBRAKEINDICATOR.INORDER && (with(SVCTRAVELTYPE.SVCBRAKE_INDICATOR) || !has(SVCTRAVELTYPE))",
+                "blockstate": "with(SVCBRAKEINDICATOR.INORDER) && (with(SVCTRAVELTYPE.SVCBRAKE_INDICATOR) || !has(SVCTRAVELTYPE))",
                 "retexture": {
                     "down": "lamp_white",
                     "middle": "lamp_white",
