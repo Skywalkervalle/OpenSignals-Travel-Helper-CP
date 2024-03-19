@@ -115,7 +115,7 @@
             {
                     "textures": [
                         {
-                        "blockstate": "with(SVCVERTICALINDICATOR.OFF) && (with(SVCTRAVELTYPE.SCVVERTICAL_INDICATOR) || !has(SVCTRAVELTYPE))"  
+                        "blockstate": "with(SVCVERTICALINDICATOR.OFF) && (with(SVCTRAVELTYPE.SVCVERTICAL_INDICATOR) || !has(SVCTRAVELTYPE))"  
                         },
                         {
                         "blockstate": "with(SVCVERTICALINDICATOR.TRAVEL) && (with(SVCTRAVELTYPE.SVCVERTICAL_INDICATOR) || !has(SVCTRAVELTYPE))",
