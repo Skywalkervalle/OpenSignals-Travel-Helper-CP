@@ -1,0 +1,4 @@
+item.svctravelplacer.name=Fahrtanzeiger Item
+tile.svctravel.name=Fahrtanzeiger
+property.svctraveltype.name=Typ
+property.value.SVCTRAVEL_INDICATOR=Fahrtanzeiger
