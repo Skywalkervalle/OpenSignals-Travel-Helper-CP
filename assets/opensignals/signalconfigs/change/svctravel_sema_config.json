@@ -1,0 +1,12 @@
+{
+    "currentSignal": "svctravel",
+    "nextSignal": "semaphoresignal",
+    "savedPredicates": {
+        "stop": "(config(wing1.FALSE) && config(wing2.FALSE)) || config(wing1.FALSE)",
+        "drive": "(config(wing1.TRUE) || config(wing2.TRUE)"
+    },
+    "values": {
+        "map(stop)": ["SVCTRAVELINDICATOR.OFF","SVCTRAVELINDICATOREXIT.OFF", "SVCVERTICALINDICATOR.OFF", "SVCVERTICALINDICATOREXIT.OFF", "SVCHORIZONTALINDICATOR.OFF", "SVCHORIZONTALINDICATOREXIT.OFF"],
+        "map(drive)": ["SVCTRAVELINDICATOR.TRAVEL","SVCTRAVELINDICATOREXIT.TRAVEL", "SVCVERTICALINDICATOR.TRAVEL", "SVCVERTICALINDICATOREXIT.TRAVEL", "SVCHORIZONTALINDICATOR.TRAVEL", "SVCHORIZONTALINDICATOREXIT.TRAVEL"]
+    }
+}

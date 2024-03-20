@@ -1,0 +1,8 @@
+{
+    "currentSignal": "svctravel",
+    "values": {
+        "true": [
+                "SVCTRAVELINDICATOR.OFF","SVCTRAVELINDICATOREXIT.OFF", "SVCVERTICALINDICATOR.OFF", "SVCVERTICALINDICATOREXIT.OFF", "SVCHORIZONTALINDICATOR.OFF", "SVCHORIZONTALINDICATOREXIT.OFF"
+            ]
+        }
+}

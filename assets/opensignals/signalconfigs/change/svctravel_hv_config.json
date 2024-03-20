@@ -1,0 +1,12 @@
+{
+    "currentSignal": "svctravel",
+    "nextSignal": "hvsignal",
+    "savedPredicates": {
+        "stop": "config(stopsignal.HP0) || config(stopsignal.SHUNTING) || config(hphome.HP0) || config(hphome.HP0_ALTERNATE_RED) || config(hpblock.HP0)",
+        "drive": "config(stopsignal.HP1) || config(hphome.HP1) || config(hpblock.HP1) || config(stopsignal.HP2) || config(hphome.HP2)"
+    },
+    "values": {
+        "map(stop)": ["SVCTRAVELINDICATOR.OFF","SVCTRAVELINDICATOREXIT.OFF", "SVCVERTICALINDICATOR.OFF", "SVCVERTICALINDICATOREXIT.OFF", "SVCHORIZONTALINDICATOR.OFF", "SVCHORIZONTALINDICATOREXIT.OFF"],
+        "map(drive)": ["SVCTRAVELINDICATOR.TRAVEL","SVCTRAVELINDICATOREXIT.TRAVEL", "SVCVERTICALINDICATOR.TRAVEL", "SVCVERTICALINDICATOREXIT.TRAVEL", "SVCHORIZONTALINDICATOR.TRAVEL", "SVCHORIZONTALINDICATOREXIT.TRAVEL"]
+    }
+}
