@@ -6,7 +6,7 @@
         "drive": "(config(mainlightsignal.HL1) || config(mainlightsignal.HL4) || config(mainlightsignal.HL7) || config(mainlightsignal.HL10) || config(exitsignal.HL1) || config(blocksignal.HL1) || config(blocksignal.HL10) || config(mainlightsignal.HL2_3) || config(mainlightsignal.HL5_6) || config(mainlightsignal.HL8_9) || config(mainlightsignal.HL11_12) || config(exitsignal.HL2_3)"
     },
     "values": {
-        "map(stop)": ["SVCTRAVELINDICATOR.OFF", "SVCBOTHINDICATOR.OFF"],
-        "map(drive)": ["SVCTRAVELINDICATOR.TRAVEL", "SVCBOTHINDICATOR.TRAVEL"]
+        "map(stop)": ["SVCTRAVELINDICATOR.oFF","SVCTRAVELINDICATOREXIT.OFF", "SVCVERTICALINDICATOR.OFF", "SVCVERTICALINDICATOREXIT.OFF", "SVCHORIZONTALINDICATOR.OFF", "SVCHORIZONTALINDICATOREXIT.OFF"],
+        "map(drive)": ["SVCTRAVELINDICATOR.TRAVEL","SVCTRAVELINDICATOREXIT.TRAVEL", "SVCVERTICALINDICATOR.TRAVEL", "SVCVERTICALINDICATOREXIT.TRAVEL", "SVCHORIZONTALINDICATOR.TRAVEL", "SVCHORIZONTALINDICATOREXIT.TRAVEL"]
     }
 }
