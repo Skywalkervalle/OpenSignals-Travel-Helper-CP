@@ -2,10 +2,10 @@
 	"credit": "Made with Blockbench by SkywalkerValle",
 	"textures": {
 		"0": "opensignals:blocks/svc/shield_black",
+		"particle": "opensignals:blocks/svc/shield_black",
 		"1": "opensignals:blocks/svc/travel_lamps/off",
 		"zp9": "opensignals:blocks/svc/travel_lamps/off",
-		"lamp_travel": "opensignals:blocks/svc/travel_lamps/off",
-		"particle": "opensignals:blocks/svc/shield_black"
+		"lamp_travel": "opensignals:blocks/svc/travel_lamps/off"
 	},
 	"elements": [
 		{
@@ -25,16 +25,35 @@
 			}
 		},
 		{
-			"name": "hood1",
-			"from": [4, 8, 7],
-			"to": [12, 16, 9],
+			"name": "dark 1",
+			"from": [5.5, 8, 6.95],
+			"to": [10.5, 15, 6.95],
 			"faces": {
-				"north": {"uv": [0, 0, 20, 28], "texture": "#0"},
-				"east": {"uv": [0, 0, 3, 8], "texture": "#0"},
-				"south": {"uv": [0, 0, 10, 14], "texture": "#0"},
-				"west": {"uv": [0, 0, 3, 8], "texture": "#0"},
-				"up": {"uv": [0, 0, 8, 3], "texture": "#0"},
-				"down": {"uv": [0, 0, 8, 3], "texture": "#0"}
+				"north": {"uv": [0, 0, 5, 7], "texture": "#1"}
+			}
+		},
+		{
+			"name": "dark 2",
+			"from": [5.5, 8, 9.05],
+			"to": [10.5, 15, 9.05],
+			"faces": {
+				"south": {"uv": [0, 0, 5, 7], "texture": "#1"}
+			}
+		},
+		{
+			"name": "dark4",
+			"from": [5.5, 0, 9.05],
+			"to": [10.5, 7, 9.05],
+			"faces": {
+				"south": {"uv": [0, 0, 5, 7], "texture": "#1"}
+			}
+		},
+		{
+			"name": "dark3",
+			"from": [5.5, 0, 6.95],
+			"to": [10.5, 7, 6.95],
+			"faces": {
+				"north": {"uv": [0, 0, 5, 7], "texture": "#1"}
 			}
 		},
 		{
@@ -116,25 +135,9 @@
 			}
 		},
 		{
-			"name": "signal_front_travelindicator",
-			"from": [5.5, 0, 6.9],
-			"to": [10.5, 7, 6.9],
-			"faces": {
-				"north": {"uv": [0, 0, 5, 7], "texture": "#lamp_travel"}
-			}
-		},
-		{
-			"name": "signal_back_travelindicator",
-			"from": [5.5, 0, 9.1],
-			"to": [10.5, 7, 9.1],
-			"faces": {
-				"south": {"uv": [0, 0, 5, 7], "texture": "#lamp_travel"}
-			}
-		},
-		{
 			"name": "hood1",
 			"from": [4, 0, 7],
-			"to": [12, 8, 9],
+			"to": [12, 16, 9],
 			"faces": {
 				"north": {"uv": [0, 0, 20, 28], "texture": "#0"},
 				"east": {"uv": [0, 0, 3, 8], "texture": "#0"},
@@ -221,6 +224,22 @@
 				"up": {"uv": [0, 0, 0, 0], "texture": "#0"},
 				"down": {"uv": [0, 0, 1, 2], "texture": "#0"}
 			}
+		},
+		{
+			"name": "signal_front_travelindicator",
+			"from": [5.5, 0, 6.9],
+			"to": [10.5, 7, 6.9],
+			"faces": {
+				"north": {"uv": [0, 0, 5, 7], "texture": "#lamp_travel"}
+			}
+		},
+		{
+			"name": "signal_back_travelindicator",
+			"from": [5.5, 0, 9.1],
+			"to": [10.5, 7, 9.1],
+			"faces": {
+				"south": {"uv": [0, 0, 5, 7], "texture": "#lamp_travel"}
+			}
 		}
 	],
 	"groups": [
@@ -239,7 +258,7 @@
 					"name": "hood",
 					"origin": [-2, 25, 38],
 					"color": 0,
-					"children": [2, 3, 4, 5, 6, 7, 8, 9, 10]
+					"children": [2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13]
 				}
 			]
 		},
@@ -249,18 +268,18 @@
 			"color": 0,
 			"children": [
 				{
+					"name": "hood",
+					"origin": [-2, 25, 38],
+					"color": 0,
+					"children": [14, 15, 16, 17, 18]
+				},
+				{
 					"name": "signal",
 					"origin": [-2, 25, 38],
 					"color": 0,
-					"children": [11, 12]
+					"children": [19, 20]
 				}
 			]
-		},
-		{
-			"name": "hood",
-			"origin": [-2, 25, 38],
-			"color": 0,
-			"children": [13, 14, 15, 16, 17, 18, 19, 20, 21]
 		}
 	]
 }
