@@ -55,7 +55,7 @@
             {
                     "textures": [
                         {
-                        "blockstate": "with(SVCBOTHINDICATORTRAVEL.OFF) && (with(SVCTRAVELTYPE.SVCHORIZONTAL_INDICATOR) || !has(SVCTRAVELTYPE)) || with(SVCBOTHINDICATORZP9.OFF) && (with(SVCTRAVELTYPE.SVCHORIZONTAL_INDICATOR)" 
+                        "blockstate": "with(SVCBOTHINDICATORTRAVEL.OFF) && (with(SVCTRAVELTYPE.SVCHORIZONTAL_INDICATOR) || !has(SVCTRAVELTYPE))"
                         },
                         {
                         "blockstate": "with(SVCBOTHINDICATORTRAVEL.TRAVEL) && (with(SVCTRAVELTYPE.SVCHORIZONTAL_INDICATOR) || !has(SVCTRAVELTYPE))",
