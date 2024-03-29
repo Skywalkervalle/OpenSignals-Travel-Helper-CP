@@ -33,7 +33,15 @@
     },
     {
         "name": "svcverticalindicator",
-        "enumClass": "SVCBOTHINDICATOR",
+        "enumClass": "SVCBOTHINDICATORTRAVEL",
+        "defaultState": "OFF",
+        "changeableStage": "APISTAGE_NONE_CONFIG",
+        "autoname": true,
+        "dependencies": "check(SVCTRAVELTYPE.SVCVERTICAL_INDICATOR)"
+    },
+    {
+        "name": "svcverticalindicatorzp9",
+        "enumClass": "SVCBOTHINDICATORZP9",
         "defaultState": "OFF",
         "changeableStage": "APISTAGE_NONE_CONFIG",
         "autoname": true,
@@ -41,7 +49,15 @@
     },
     {
         "name": "svcverticalindicatorexit",
-        "enumClass": "SVCBOTHINDICATOR",
+        "enumClass": "SVCBOTHINDICATORTRAVEL",
+        "defaultState": "OFF",
+        "changeableStage": "APISTAGE_NONE_CONFIG",
+        "autoname": true,
+        "dependencies": "check(SVCTRAVELTYPE.SVCVERTICAL_INDICATOREXIT)"
+    },
+    {
+        "name": "svcverticalindicatorexitzp9",
+        "enumClass": "SVCBOTHINDICATORZP9",
         "defaultState": "OFF",
         "changeableStage": "APISTAGE_NONE_CONFIG",
         "autoname": true,
@@ -49,7 +65,15 @@
     },
     {
         "name": "svchorizontalindicator",
-        "enumClass": "SVCBOTHINDICATOR",
+        "enumClass": "SVCBOTHINDICATORTRAVEL",
+        "defaultState": "OFF",
+        "changeableStage": "APISTAGE_NONE_CONFIG",
+        "autoname": true,
+        "dependencies": "check(SVCTRAVELTYPE.SVCHORIZONTAL_INDICATOR)"
+    },
+    {
+        "name": "svchorizontalindicatorzp9",
+        "enumClass": "SVCBOTHINDICATORZP9",
         "defaultState": "OFF",
         "changeableStage": "APISTAGE_NONE_CONFIG",
         "autoname": true,
@@ -57,7 +81,15 @@
     },
     {
         "name": "svchorizontalindicatorexit",
-        "enumClass": "SVCBOTHINDICATOR",
+        "enumClass": "SVCBOTHINDICATORTRAVEL",
+        "defaultState": "OFF",
+        "changeableStage": "APISTAGE_NONE_CONFIG",
+        "autoname": true,
+        "dependencies": "check(SVCTRAVELTYPE.SVCHORIZONTAL_INDICATOREXIT)"
+    },
+    {
+        "name": "svchorizontalindicatorexitzp9",
+        "enumClass": "SVCBOTHINDICATORZP9",
         "defaultState": "OFF",
         "changeableStage": "APISTAGE_NONE_CONFIG",
         "autoname": true,
