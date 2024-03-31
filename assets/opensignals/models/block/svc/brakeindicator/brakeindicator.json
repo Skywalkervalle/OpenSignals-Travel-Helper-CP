@@ -4,7 +4,9 @@
 	"textures": {
 		"1": "opensignals:blocks/svc/shield_black",
 		"particle": "opensignals:blocks/svc/shield_black",
-		"lamp_dark": "opensignals:blocks/svc/travel_lamps/lamp_dark"
+		"up": "opensignals:blocks/svc/travel_lamps/lamp_dark",
+		"middle": "opensignals:blocks/svc/travel_lamps/lamp_dark",
+		"down": "opensignals:blocks/svc/travel_lamps/lamp_dark"
 	},
 	"elements": [
 		{
@@ -12,7 +14,7 @@
 			"from": [6, 11, 5.9],
 			"to": [10, 15, 5.9],
 			"faces": {
-				"north": {"uv": [1, 1, 3, 3], "texture": "#lamp_dark"}
+				"north": {"uv": [1, 1, 3, 3], "texture": "#up"}
 			}
 		},
 		{
@@ -20,7 +22,7 @@
 			"from": [6, 6, 5.9],
 			"to": [10, 10, 5.9],
 			"faces": {
-				"north": {"uv": [1, 1, 3, 3], "texture": "#lamp_dark"}
+				"north": {"uv": [1, 1, 3, 3], "texture": "#middle"}
 			}
 		},
 		{
@@ -28,7 +30,7 @@
 			"from": [6, 1, 5.9],
 			"to": [10, 5, 5.9],
 			"faces": {
-				"north": {"uv": [1, 1, 3, 3], "texture": "#lamp_dark"}
+				"north": {"uv": [1, 1, 3, 3], "texture": "#down"}
 			}
 		},
 		{

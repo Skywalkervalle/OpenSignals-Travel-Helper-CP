@@ -16,13 +16,13 @@
                         {
                             "blockstate": "with(SVCTRAVELINDICATOREXIT.TRAVEL) && (with(SVCTRAVELTYPE.SVCTRAVEL_INDICATOREXIT) || !has(SVCTRAVELTYPE))",
                             "retexture": {
-                                "lamp_travel": "lamp_travel"
+                                "travelindicator": "lamp_travel"
                                 }
                         },
                         {
                             "blockstate": "with(SVCTRAVELINDICATOREXIT.ZP9) && (with(SVCTRAVELTYPE.SVCTRAVEL_INDICATOREXIT) || !has(SVCTRAVELTYPE))",
                             "retexture": {
-                                "lamp_travel": "lamp_zp9"
+                                "travelindicator": "lamp_zp9"
                                 }
                         } 
                     ],
