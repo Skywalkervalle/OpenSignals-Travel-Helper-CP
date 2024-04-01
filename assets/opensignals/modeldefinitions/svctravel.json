@@ -55,7 +55,7 @@
             {
                     "textures": [
                         {
-                        "blockstate": "with(SVCHORIZONTALINDICATOR.OFF) && (with(SVCTRAVELTYPE.SVCHORIZONTAL_INDICATOR) || !has(SVCTRAVELTYPE))"
+                        "blockstate": "with(SVCHORIZONTALINDICATOR.OFF) && with(SVCHORIZONTALINDICATORZP9.OFF) && (with(SVCTRAVELTYPE.SVCHORIZONTAL_INDICATOR) || !has(SVCTRAVELTYPE))"
                         },
                         {
                         "blockstate": "with(SVCHORIZONTALINDICATOR.TRAVEL) && (with(SVCTRAVELTYPE.SVCHORIZONTAL_INDICATOR) || !has(SVCTRAVELTYPE))",
@@ -63,9 +63,6 @@
                             "lamp_travel_front": "lamp_travel",
                             "lamp_travel_back": "lamp_travel_doted"
                             }
-                        },
-                        {
-                        "blockstate": "with(SVCHORIZONTALINDICATORZP9.OFF) && (with(SVCTRAVELTYPE.SVCHORIZONTAL_INDICATOR) || !has(SVCTRAVELTYPE))"
                         },
                         {
                             "blockstate": "with(SVCHORIZONTALINDICATORZP9.ZP9) && (with(SVCTRAVELTYPE.SVCHORIZONTAL_INDICATOR) || !has(SVCTRAVELTYPE))",
