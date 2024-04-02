@@ -11,16 +11,16 @@
             {   
                     "textures":[
                         {
-                            "blockstate": "with(SVCTRAVELINDICATOREXIT.OFF) && (with(SVCTRAVELTYPE.SVCTRAVEL_INDICATOREXIT) || !has(SVCTRAVELTYPE))"
+                            "blockstate": "with(SVCTRAVELINDICATOR.OFF) && (with(SVCTRAVELTYPE.SVCTRAVEL_INDICATOREXIT) || !has(SVCTRAVELTYPE))"
                         },
                         {
-                            "blockstate": "with(SVCTRAVELINDICATOREXIT.TRAVEL) && (with(SVCTRAVELTYPE.SVCTRAVEL_INDICATOREXIT) || !has(SVCTRAVELTYPE))",
+                            "blockstate": "with(SVCTRAVELINDICATOR.TRAVEL) && (with(SVCTRAVELTYPE.SVCTRAVEL_INDICATOREXIT) || !has(SVCTRAVELTYPE))",
                             "retexture": {
                                 "travelindicator": "lamp_travel"
                                 }
                         },
                         {
-                            "blockstate": "with(SVCTRAVELINDICATOREXIT.ZP9) && (with(SVCTRAVELTYPE.SVCTRAVEL_INDICATOREXIT) || !has(SVCTRAVELTYPE))",
+                            "blockstate": "with(SVCTRAVELINDICATOR.ZP9) && (with(SVCTRAVELTYPE.SVCTRAVEL_INDICATOREXIT) || !has(SVCTRAVELTYPE))",
                             "retexture": {
                                 "travelindicator": "lamp_zp9"
                                 }
