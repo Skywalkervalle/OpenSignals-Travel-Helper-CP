@@ -78,16 +78,13 @@
             {
                 "textures":[
                 {
-                    "blockstate": "with(SVCHORIZONTALINDICATOREXIT.OFF) && (with(SVCTRAVELTYPE.SVCHORIZONTAL_INDICATOREXIT) || !has(SVCTRAVELTYPE))"
+                    "blockstate": "with(SVCHORIZONTALINDICATOREXIT.OFF) && (with(SVCTRAVELTYPE.SVCHORIZONTAL_INDICATOREXIT) && with(SVCHORIZONTALINDICATOREXITZP9.OFF) || !has(SVCTRAVELTYPE))"
                     },
                     {
                     "blockstate": "with(SVCHORIZONTALINDICATOREXIT.TRAVEL) && (with(SVCTRAVELTYPE.SVCHORIZONTAL_INDICATOREXIT) || !has(SVCTRAVELTYPE))",
                     "retexture": {
                         "travelindicator": "lamp_travel"
                         }
-                    },
-                    {
-                    "blockstate": "with(SVCHORIZONTALINDICATOREXITZP9.OFF) && (with(SVCTRAVELTYPE.SVCHORIZONTAL_INDICATOREXIT) || !has(SVCTRAVELTYPE))"
                     },
                     {
                         "blockstate": "with(SVCHORIZONTALINDICATOREXITZP9.ZP9) && (with(SVCTRAVELTYPE.SVCHORIZONTAL_INDICATOREXIT) || !has(SVCTRAVELTYPE))",
@@ -102,7 +99,7 @@
             {
                     "textures": [
                         {
-                        "blockstate": "with(SVCVERTICALINDICATOR.OFF) && (with(SVCTRAVELTYPE.SVCVERTICAL_INDICATOR) || !has(SVCTRAVELTYPE))"  
+                        "blockstate": "with(SVCVERTICALINDICATOR.OFF) && (with(SVCTRAVELTYPE.SVCVERTICAL_INDICATOR) && with(SVCVERTICALINDICATORZP9.OFF) || !has(SVCTRAVELTYPE))"  
                         },
                         {
                         "blockstate": "with(SVCVERTICALINDICATOR.TRAVEL) && (with(SVCTRAVELTYPE.SVCVERTICAL_INDICATOR) || !has(SVCTRAVELTYPE))",
@@ -110,9 +107,6 @@
                             "lamp_travel_front": "lamp_travel",
                             "lamp_travel_back": "lamp_travel_doted"
                             }
-                        },
-                        {
-                        "blockstate": "with(SVCVERTICALINDICATORZP9.OFF) && (with(SVCTRAVELTYPE.SVCVERTICAL_INDICATOR) || !has(SVCTRAVELTYPE))"
                         },
                         {
                             "blockstate": "with(SVCVERTICALINDICATORZP9.ZP9) && (with(SVCTRAVELTYPE.SVCVERTICAL_INDICATOR) || !has(SVCTRAVELTYPE))",
@@ -128,16 +122,13 @@
             {
                 "textures":[
                     {
-                    "blockstate": "with(SVCVERTICALINDICATOREXIT.OFF) && (with(SVCTRAVELTYPE.SVCVERTICAL_INDICATOREXIT) || !has(SVCTRAVELTYPE))"
+                    "blockstate": "with(SVCVERTICALINDICATOREXIT.OFF) && (with(SVCTRAVELTYPE.SVCVERTICAL_INDICATOREXIT) && with(SVCVERTICALINDICATOREXITZP9.ZP9) || !has(SVCTRAVELTYPE))"
                     },
                     {
                     "blockstate": "with(SVCVERTICALINDICATOREXIT.TRAVEL) && (with(SVCTRAVELTYPE.SVCVERTICAL_INDICATOREXIT) || !has(SVCTRAVELTYPE))",
                     "retexture": {
                         "travelindicator": "lamp_travel"
                         }
-                    },
-                    {
-                    "blockstate": "with(SVCVERTICALINDICATOREXITZP9.ZP9) && (with(SVCTRAVELTYPE.SVCVERTICAL_INDICATOREXIT) || !has(SVCTRAVELTYPE))"
                     },
                     {
                         "blockstate": "with(SVCVERTICALINDICATOREXITZP9.ZP9) && (with(SVCTRAVELTYPE.SVCVERTICAL_INDICATOREXIT) || !has(SVCTRAVELTYPE))",
