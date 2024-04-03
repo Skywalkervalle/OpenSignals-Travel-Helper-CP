@@ -70,7 +70,8 @@
                                 "signal_front_Zp9": "lamp_zp9",
                                 "signal_back_Zp9": "lamp_zp9"
                                 }
-                        },                        {
+                        },                        
+                        {
                             "blockstate": "with(SVCHORIZONTALINDICATORZP9.ZP9) && with(SVCHORIZONTALINDICATOR.TRAVEL) && (with(SVCTRAVELTYPE.SVCHORIZONTAL_INDICATOR) || !has(SVCTRAVELTYPE))",
                             "retexture": {
                                 "signal_front_Zp9": "lamp_zp9",
