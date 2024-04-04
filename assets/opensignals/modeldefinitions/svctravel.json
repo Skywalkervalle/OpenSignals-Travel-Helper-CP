@@ -55,7 +55,7 @@
             {
                     "textures": [
                         {
-                        "blockstate": "with(SVCHORIZONTALINDICATOR.OFF) && (with(SVCTRAVELTYPE.SVCHORIZONTAL_INDICATOR) || !has(SVCTRAVELTYPE))"
+                        "blockstate": "with(SVCHORIZONTALINDICATOR.OFF) && with(SVCHORIZONTALINDICATORZP9.OFF) && (with(SVCTRAVELTYPE.SVCHORIZONTAL_INDICATOR) || !has(SVCTRAVELTYPE))"
                         },
                         {
                         "blockstate": "with(SVCHORIZONTALINDICATOR.TRAVEL) && (with(SVCTRAVELTYPE.SVCHORIZONTAL_INDICATOR) || !has(SVCTRAVELTYPE))",
@@ -87,7 +87,7 @@
             {
                 "textures":[
                 {
-                    "blockstate": "with(SVCHORIZONTALINDICATOREXIT.OFF) && (with(SVCTRAVELTYPE.SVCHORIZONTAL_INDICATOREXIT) || !has(SVCTRAVELTYPE))"
+                    "blockstate": "with(SVCHORIZONTALINDICATOREXIT.OFF) && with(SVCHORIZONTALINDICATOREXITZP9.OFF) && (with(SVCTRAVELTYPE.SVCHORIZONTAL_INDICATOREXIT) || !has(SVCTRAVELTYPE))"
                     },
                     {
                     "blockstate": "with(SVCHORIZONTALINDICATOREXIT.TRAVEL) && (with(SVCTRAVELTYPE.SVCHORIZONTAL_INDICATOREXIT) || !has(SVCTRAVELTYPE))",
@@ -115,7 +115,7 @@
             {
                     "textures": [
                         {
-                        "blockstate": "with(SVCVERTICALINDICATOR.OFF) && (with(SVCTRAVELTYPE.SVCVERTICAL_INDICATOR) || !has(SVCTRAVELTYPE))"  
+                        "blockstate": "with(SVCVERTICALINDICATOR.OFF) && with(SVCVERTICALINDICATORZP9.OFF) && (with(SVCTRAVELTYPE.SVCVERTICAL_INDICATOR) || !has(SVCTRAVELTYPE))"  
                         },
                         {
                         "blockstate": "with(SVCVERTICALINDICATOR.TRAVEL) && (with(SVCTRAVELTYPE.SVCVERTICAL_INDICATOR) || !has(SVCTRAVELTYPE))",
@@ -147,7 +147,7 @@
             {
                 "textures":[
                     {
-                    "blockstate": "with(SVCVERTICALINDICATOREXIT.OFF) && (with(SVCTRAVELTYPE.SVCVERTICAL_INDICATOREXIT) || !has(SVCTRAVELTYPE))"
+                    "blockstate": "with(SVCVERTICALINDICATOREXIT.OFF) && with(SVCVERTICALINDICATOREXITZP9.OFF) && (with(SVCTRAVELTYPE.SVCVERTICAL_INDICATOREXIT) || !has(SVCTRAVELTYPE))"
                     },
                     {
                     "blockstate": "with(SVCVERTICALINDICATOREXIT.TRAVEL) && (with(SVCTRAVELTYPE.SVCVERTICAL_INDICATOREXIT) || !has(SVCTRAVELTYPE))",
