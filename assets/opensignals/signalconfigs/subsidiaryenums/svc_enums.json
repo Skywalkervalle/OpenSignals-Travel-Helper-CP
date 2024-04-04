@@ -6,11 +6,6 @@
             "isCountable": false
         },
         {
-            "name": "BOTH",
-            "showSubsidiaryAtSignal": "SIGNAL_GREEN",
-            "isCountable": false
-        },
-        {
             "name": "SVCZP9",
             "showSubsidiaryAtSignal": "SIGNAL_GREEN",
             "isCountable": false
