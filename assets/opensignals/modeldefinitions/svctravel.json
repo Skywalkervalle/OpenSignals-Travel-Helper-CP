@@ -58,14 +58,14 @@
                         "blockstate": "with(SVCHORIZONTALINDICATOR.OFF) && with(SVCHORIZONTALINDICATORZP9.OFF) && (with(SVCTRAVELTYPE.SVCHORIZONTAL_INDICATOR) || !has(SVCTRAVELTYPE))"
                         },
                         {
-                        "blockstate": "with(SVCHORIZONTALINDICATOR.TRAVEL) && (with(SVCTRAVELTYPE.SVCHORIZONTAL_INDICATOR) || !has(SVCTRAVELTYPE))",
+                        "blockstate": "with(SVCHORIZONTALINDICATOR.TRAVEL) && !with(SVCHORIZONTALINDICATORZP9.ZP9) && (with(SVCTRAVELTYPE.SVCHORIZONTAL_INDICATOR) || !has(SVCTRAVELTYPE))",
                         "retexture": {
                             "lamp_travel_front": "lamp_travel",
                             "lamp_travel_back": "lamp_travel_doted"
                             }
                         },
                         {
-                        "blockstate": "with(SVCHORIZONTALINDICATORZP9.ZP9) && (with(SVCTRAVELTYPE.SVCHORIZONTAL_INDICATOR) || !has(SVCTRAVELTYPE))",
+                        "blockstate": "with(SVCHORIZONTALINDICATORZP9.ZP9) && !with(SVCHORIZONTALINDICATOR.TRAVEL) && (with(SVCTRAVELTYPE.SVCHORIZONTAL_INDICATOR) || !has(SVCTRAVELTYPE))",
                         "retexture": {
                             "signal_front_Zp9": "lamp_zp9",
                             "signal_back_Zp9": "lamp_zp9"
