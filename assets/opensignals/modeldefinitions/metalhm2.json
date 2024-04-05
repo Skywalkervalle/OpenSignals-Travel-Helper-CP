@@ -1,0 +1,29 @@
+{
+    "textures": {},
+    "models": {
+		"metal/hm2/hmwhite1": {
+			"textures": [
+				{
+				"blockstate": "with(HMTYPES2.HMWHITE1)"
+				}
+			],
+			"y": 0
+		},
+		"metal/hm2/hmwhite2": {
+			"textures": [
+				{
+				"blockstate": "with(HMTYPES2.HMWHITE2)"
+				}
+			],
+			"y": 0
+		},
+		"metal/hm2/hmwhite3": {
+			"textures": [
+				{
+				"blockstate": "with(HMTYPES2.HMWHITE3)"
+				}
+			],
+			"y": 0
+		}
+	}
+}
