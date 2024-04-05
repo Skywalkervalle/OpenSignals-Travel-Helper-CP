@@ -1,5 +1,6 @@
 {
     "placementtools": [
-        "SVCTRAVELPLACER"
+        "SVCTRAVELPLACER",
+        "HM_TOOL"
     ]
 }
