@@ -1,0 +1,30 @@
+{
+    "systemProperties": {
+    "placementToolName": "hmtool",
+    "canLink": false,
+	"customNameRenderHeight": 1.3,
+	"signWidth": 14,
+	"signScale": 2.25,
+	"textColor": 16777215,
+	"offsetX": 3.5,
+    "defaultHeight": 1,
+	"doubleSidedText": {
+		"config(DOUBLESIDED.TRUE)": true
+			}
+		},
+		
+		"seProperties": [
+        {
+            "name": "hmtypes",
+            "enumClass": "HMTYPES",
+            "defaultState": "HMNORMAL",
+            "changeableStage": "GUISTAGE",
+            "autoname": false
+        },
+		{
+            "name": "doublesided",
+            "defaultState": true,
+            "changeableStage": "GUISTAGE"
+        }
+    ]
+}

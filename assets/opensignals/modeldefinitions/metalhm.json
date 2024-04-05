@@ -1,0 +1,21 @@
+{
+    "textures": {},
+    "models": {
+		"metal/hm/hmnormal": {
+			"textures": [
+				{
+				"blockstate": "with(HMTYPES.HMNORMAL)"
+				}
+			],
+			"y": 0
+		},
+		"metal/hm/hmmossy": {
+			"textures": [
+				{
+				"blockstate": "with(HMTYPES.HMMOSSY)"
+				}
+			],
+			"y": 0
+		}
+	}
+}

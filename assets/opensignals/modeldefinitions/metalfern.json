@@ -1,0 +1,21 @@
+{
+    "textures": {},
+    "models": {
+		"metal/fern/stand": {
+			"textures": [
+				{
+				"blockstate": "with(METALFERN.FERNSTAND)"
+				}
+			],
+			"y": 0
+		},
+		"metal/fern/wand": {
+			"textures": [
+				{
+				"blockstate": "with(METALFERN.FERNWAND)"
+				}
+			],
+			"y": 0
+		}
+	}
+}
