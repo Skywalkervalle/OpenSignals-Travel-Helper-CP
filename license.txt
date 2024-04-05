@@ -10,4 +10,4 @@ LICENSE
 Author:
 valle06 (Discord)
 keinmensch. (Discord)
-OpenSignals-Travel-Helper-CP © 2023 by Valle and MetalSkate
+OpenSignals-Travel-Helper-CP © 2024 by Valle and MetalSkate
