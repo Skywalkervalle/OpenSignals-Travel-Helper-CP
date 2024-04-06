@@ -25,19 +25,5 @@
     "property.svchorizontalindicatorzp9.name": "Zp9",
     "property.svchorizontalindicatorexitzp9.name": "Zp9",
     "property.travel.name": "Travelindicator",
-    "property.svczp9.name": "Zp9",
-    "item.hmtool.name": "Stone Hectometer Placer",
-    "tile.metalhm.name": "Stone Hectometer",
-    "tile.metalfern.name": "Trackside telephone",
-    "tile.metalhm2.name": "White Hectometer",
-    "property.hmtypes.name": "Type",
-    "property.hmtypes2.name": "Type",
-    "property.metalfern.name": "Type",
-    "property.value.HMNORMAL": "Stone Hectometer",
-    "property.value.HMMOSSY": "Mossy Stone Hectometer",
-    "property.value.HMWHITE1": "White Hectometer 1",
-    "property.value.HMWHITE2": "White Hectometer 2",
-    "property.value.HMWHITE3": "White Hectometer 3",
-    "property.value.FERNSTAND": "Standing trackside telephone",
-    "property.value.FERNWAND": "Hanging trackside telephone"
+    "property.svczp9.name": "Zp9"
 }
