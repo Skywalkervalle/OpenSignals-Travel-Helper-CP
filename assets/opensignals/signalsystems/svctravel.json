@@ -12,7 +12,7 @@
         {
         "name": "svctraveltype",
         "enumClass": "SVCTRAVELTYPE",
-        "defaultState": "OFF",
+        "defaultState": "SVCTRAVEL_INDICATOR",
         "changeableStage": "GUISTAGE"
     },
     {

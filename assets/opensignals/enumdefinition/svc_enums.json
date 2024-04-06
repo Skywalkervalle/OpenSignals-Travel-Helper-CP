@@ -1,7 +1,6 @@
 {
     "SVCTRAVELTYPE":
     [
-        "OFF",
         "SVCTRAVEL_INDICATOR",
         "SVCTRAVEL_INDICATOREXIT",
         "SVCVERTICAL_INDICATOR",
