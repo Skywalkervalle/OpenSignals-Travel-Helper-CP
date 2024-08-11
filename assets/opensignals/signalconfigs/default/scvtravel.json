@@ -1,5 +1,5 @@
 {
-    "currentSignal": "svctravel",
+    "currentSignal": ["svctravel"],
     "values": {
         "": [
             "SVCTRAVELINDICATOR.TRAVEL",
