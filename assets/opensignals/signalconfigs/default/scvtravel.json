@@ -1,6 +1,13 @@
 {
     "currentSignal": "svctravel",
     "values": {
-        "": []
+        "": [            
+        "SVCTRAVELINDICATOR.TRAVEL",
+        "SVCTRAVELINDICATOREXIT.TRAVEL",
+        "SVCVERTICALINDICATOR.TRAVEL", 
+        "SVCVERTICALINDICATOREXIT.TRAVEL", 
+        "SVCHORIZONTALINDICATOR.TRAVEL", 
+        "SVCHORIZONTALINDICATOREXIT.TRAVEL"
+    ]
     }
 }
