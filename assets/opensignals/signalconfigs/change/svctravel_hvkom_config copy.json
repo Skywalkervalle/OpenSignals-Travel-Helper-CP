@@ -1,0 +1,12 @@
+{
+    "currentSignal": "svctravel",
+    "nextSignal": "hvkomsignal",
+    "savedPredicates": {
+        "stop": "config(komexit.HP0) || config(komhome.HP0) || config(komhome1.HP0) || config(komhome1.HP0_ALTERNATE_RED) || config(komblock.HP0)",
+        "drive": "config(komexit.HP1) || config(komhome.HP1) || config(komblock.HP1) || config(komhome1.HP2) || config(komexit.HP2) || config(komhome.HP2) || config(komhome1.HP2)"
+    },
+    "values": {
+        "map(stop)": ["SVCTRAVELINDICATOR.OFF","SVCTRAVELINDICATOREXIT.OFF", "SVCVERTICALINDICATOR.OFF", "SVCVERTICALINDICATOREXIT.OFF", "SVCHORIZONTALINDICATOR.OFF", "SVCHORIZONTALINDICATOREXIT.OFF"],
+        "map(drive)": ["SVCTRAVELINDICATOR.TRAVEL","SVCTRAVELINDICATOREXIT.TRAVEL", "SVCVERTICALINDICATOR.TRAVEL", "SVCVERTICALINDICATOREXIT.TRAVEL", "SVCHORIZONTALINDICATOR.TRAVEL", "SVCHORIZONTALINDICATOREXIT.TRAVEL"]
+    }
+}
