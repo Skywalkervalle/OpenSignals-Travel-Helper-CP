@@ -1,5 +1,5 @@
 {
-    "currentSignal": "svctravel",
+    "currentSignals": ["svctravel"],
         "nextSignals": ["hvks", "hvksbrg"],
         "savedPredicates": {
             "stop": "config(HVKS_MAIN.HP0) || config(HVKS_ZS1.TRUE) || config(HVKS_ZS7.TRUE) || config(HVKS_ZS8.TRUE) || config(HVKS_SH1.TRUE)",

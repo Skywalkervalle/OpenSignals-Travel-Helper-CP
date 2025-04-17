@@ -1,5 +1,5 @@
 {
-    "currentSignal": "svctravel",
+    "currentSignals": ["svctravel"],
     "nextSignals": ["kssignal", "kssignalbridge"],
     "savedPredicates": {
         "stop": "config(kombisignal.HP0) || config(kombisignal.KS_ZS1) || config(kombisignal.KS_ZS7) || config(kombisignal.KS_SHUNTING) || config(kombisignal_main.HP0) || config(kombisignal_main.KS_ZS1) || config(kombisignal_main.KS_ZS7) || config(kombisignal_main.KS_SHUNTING)",

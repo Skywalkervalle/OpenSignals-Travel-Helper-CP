@@ -1,5 +1,5 @@
 {
-    "currentSignal": "svctravel",
+    "currentSignals": ["svctravel"],
     "nextSignals": ["semaphoresignal", "semaphoresignalbridge"],
     "savedPredicates": {
         "stop": "(config(wing1.FALSE) && config(wing2.FALSE)) || config(wing1.FALSE)",

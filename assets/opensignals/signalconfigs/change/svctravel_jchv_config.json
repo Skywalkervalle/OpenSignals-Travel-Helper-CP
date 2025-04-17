@@ -1,5 +1,5 @@
 {
-    "currentSignal": "svctravel",
+    "currentSignals": ["svctravel"],
     "nextSignals": ["jchvsignal"],
     "savedPredicates": {
         "stop": "config(stopsignal.HP0) || config(stopsignal.SHUNTING) || config(hphome.HP0) || config(hphome.HP0_ALTERNATE_RED) || config(hpblock.HP0)",
