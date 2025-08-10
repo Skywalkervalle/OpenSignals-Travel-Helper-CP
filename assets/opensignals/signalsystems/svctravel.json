@@ -91,6 +91,12 @@
         "defaultState": "OFF",
         "changeableStage": "APISTAGE_NONE_CONFIG",
         "dependencies": "check(SVCTRAVELTYPE.SVCBRAKE_INDICATOR)"
+    },
+    {
+        "name": "svccontrollpanel",
+        "enumClass": "SVCCONTROLLPANEL",
+        "defaultState": "OFF",
+        "dependencies":"check(SVCTRAVELTYPE.SVCCONTROLLPANEL)"
     }
     ]
 }
