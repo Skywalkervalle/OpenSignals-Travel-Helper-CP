@@ -1,9 +1,12 @@
 {
     "textures":{
         "lamp_white":"opensignals:blocks/svc/travel_lamps/lamp_white",
+        "lamp_green":"opensignals:blocks/lamps/lamp_green",
         "lamp_travel":"opensignals:blocks/svc/travel_lamps/lamp_travel",
         "lamp_travel_doted": "opensignals:blocks/svc/travel_lamps/lamp_travel_doted",
-        "lamp_zp9":"opensignals:blocks/svc/travel_lamps/zp9"
+        "lamp_zp9":"opensignals:blocks/svc/travel_lamps/zp9",
+        "lamp_red":"opensignals:blocks/lamps/lamp_red",
+        "arrow":"opensignals:blocks/svc/arrow"
     },
     "models":
     {
@@ -199,7 +202,38 @@
                     }   
                 }
                 ],
-                "y": 0
-            }
+            "y": 0
+            },
+            "svc/brakeindicator/brakeindicator_double":
+            {
+                "textures": [
+                {
+                "blockstate": "with(SVCBRAKEINDICATORDOUBLE.OFF) && (with(SVCTRAVELTYPE.SVCBRAKE_INDICATOR_DOUBLE) || !has(SVCTRAVELTYPE))"
+                },
+                {
+                "blockstate": "with(SVCBRAKEINDICATORDOUBLE.BRAKE) && (with(SVCTRAVELTYPE.SVCBRAKE_INDICATOR_DOUBLE) || !has(SVCTRAVELTYPE))",
+                "retexture": {
+                    "up": "lamp_white"
+                    }
+                },
+                {
+                "blockstate": "with(SVCBRAKEINDICATORDOUBLE.RELEASE) && (with(SVCTRAVELTYPE.SVCBRAKE_INDICATOR_DOUBLE) || !has(SVCTRAVELTYPE))",
+                "retexture": {
+                    "down": "lamp_white",
+                    "middle": "lamp_white"
+                    }
+                },
+                {
+                "blockstate": "with(SVCBRAKEINDICATORDOUBLE.INORDER) && (with(SVCTRAVELTYPE.SVCBRAKE_INDICATOR_DOUBLE) || !has(SVCTRAVELTYPE))",
+                "retexture": {
+                    "down": "lamp_white",
+                    "middle": "lamp_white",
+                    "up": "lamp_white"
+                    }   
+                }
+                ],
+            "y": 0
+        }
     }
 }
+

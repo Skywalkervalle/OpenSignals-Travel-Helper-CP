@@ -1,0 +1,17 @@
+{
+	"credit": "Made with Blockbench by SkywalkerValle",
+	"textures": {
+		"0": "opensignals:blocks/svc/groundplate/shield_black",
+		"particle": "opensignals:blocks/svc/groundplate/shield_black"
+	},
+	"elements": [
+		{
+			"from": [0, 0.05, 0],
+			"to": [16, 0.05, 16],
+			"faces": {
+				"up": {"uv": [0, 0, 16, 16], "texture": "#0"},
+				"down": {"uv": [0, 0, 16, 16], "texture": "#0"}
+			}
+		}
+	]
+}

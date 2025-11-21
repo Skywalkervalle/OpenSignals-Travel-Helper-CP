@@ -1,0 +1,23 @@
+{
+	"credit": "Made with Blockbench by SkywalkerValle",
+	"textures": {
+		"particle": "opensignals:blocks/default/yellow",
+		"arrow": "opensignals:blocks/default/yellow"
+	},
+	"elements": [
+		{
+			"name": "arrow",
+			"from": [6.5, 26.2, 3.9],
+			"to": [9.5, 27.3, 4.9],
+			"rotation": {"angle": 0, "axis": "y", "origin": [2, 2.9, 0]},
+			"faces": {
+				"north": {"uv": [0, 6.25, 16, 10], "texture": "#arrow"},
+				"east": {"uv": [0, 0, 1, 1], "texture": "#arrow"},
+				"south": {"uv": [0, 0, 1, 1], "texture": "#arrow"},
+				"west": {"uv": [0, 0, 1, 1], "texture": "#arrow"},
+				"up": {"uv": [0, 0, 1, 1], "texture": "#arrow"},
+				"down": {"uv": [0, 0, 1, 1], "texture": "#arrow"}
+			}
+		}
+	]
+}

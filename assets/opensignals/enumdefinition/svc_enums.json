@@ -9,7 +9,7 @@
         "SVCHORIZONTAL_INDICATOR",
         "SVCHORIZONTAL_INDICATOREXIT",
         "SVCBRAKE_INDICATOR",
-        "SVCCONTROLLPANEL"
+        "SVCBRAKE_INDICATOR_DOUBLE"
     ],
     "SVCTRAVELINDICATOR":
     [
@@ -34,14 +34,46 @@
         "RELEASE",
         "INORDER"
     ],
-    "SVCCONTROLLPANEL":
+    "SVCBRAKEINDICATORDOUBLE":
     [
         "OFF",
+        "BRAKE",
+        "RELEASE",
+        "INORDER"
+    ],
+    "SVCCONTROLLPANELTYPE":
+    [
+        "OFF",
+        "SVCCONTROLLPANEL"
+    ],
+        "SVCCONTROLLPANEL":
+    [
         "ON"
     ],
-    "SVCCONTROLLPANELDIRECTION":
+    "SVCCONTROLLPANEL_ARROW":
     [
+        "OFF",
         "LEFT",
         "RIGHT"
+    ],
+        "SVCCONTROLLPANEL_GROUND":
+    [
+        "OFF",
+        "STONE",
+        "STONE_ANDESITE_SMOOTH",
+        "COBBLESTONE",
+        "STONEBRICK",
+        "STONEBRICK_CARVED",
+        "BRICK",
+        "SANDSTONE",
+        "RED_SANDSTONE",
+        "CONCRETE_BLACK",
+        "CONCRETE_GRAY",
+        "CONCRETE_SILVER",
+        "CONCRETE_WHITE",
+        "CONCRETE_YELLOW",
+        "CONCRETE_POWDER_BLACK",
+        "CONCRETE_POWDER_SILVER",
+        "CONCRETE_POWDER_WHITE"
     ]
 }

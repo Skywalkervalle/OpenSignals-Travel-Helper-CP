@@ -1,0 +1,167 @@
+{
+    "textures":{
+        "yellow": "opensignals:blocks/default/yellow",
+        "lamp_white":"opensignals:blocks/svc/travel_lamps/lamp_white",
+        "lamp_green":"opensignals:blocks/lamps/lamp_green",
+        "lamp_red":"opensignals:blocks/lamps/lamp_red",
+        "stone":"opensignals:blocks/svc/groundplate/stone",
+        "stone_andesite_smooth":"opensignals:blocks/svc/groundplate/stone_andesite_smooth",
+        "cobblestone":"opensignals:blocks/svc/groundplate/cobblestone",
+        "stonebrick":"opensignals:blocks/svc/groundplate/stonebrick",
+        "stonebrick_carved":"opensignals:blocks/svc/groundplate/stonebrick_carved",
+        "brick":"opensignals:blocks/svc/groundplate/brick",
+        "sandstone":"opensignals:blocks/svc/groundplate/sandstone",
+        "red_sandstone":"opensignals:blocks/svc/groundplate/red_sandstone",
+        "concrete_black":"opensignals:blocks/svc/groundplate/concrete_black",
+        "concrete_gray":"opensignals:blocks/svc/groundplate/concrete_gray",
+        "concrete_silver":"opensignals:blocks/svc/groundplate/concrete_silver",
+        "concrete_white":"opensignals:blocks/svc/groundplate/concrete_white",
+        "concrete_yellow":"opensignals:blocks/svc/groundplate/concrete_yellow",
+        "concrete_powder_black":"opensignals:blocks/svc/groundplate/concrete_powder_black",
+        "concrete_powder_silver":"opensignals:blocks/svc/groundplate/concrete_powder_silver",
+        "concrete_powder_white":"opensignals:blocks/svc/groundplate/concrete_powder_white",
+        "arrow_left":"opensignals:blocks/svc/arrows/arrow_left",
+        "arrow_right":"opensignals:blocks/svc/arrows/arrow_right"
+        
+    },
+    "models":{
+        "svc/controlpanel/controlpanel":
+        {
+            "textures": [
+            {
+                "blockstate": "with(SVCCONTROLLPANEL.ON)"
+            },
+            {
+                "blockstate": "with(SVCCONTROLLPANEL.ON) && hasandis(POWERED)",
+                "retexture": {
+                "lamp_zp9_o": "lamp_green"
+                }
+            }
+            ],
+            "y": 0
+        },
+        "svc/controlpanel/controlpanel_arrow":
+        {
+            "textures": [
+                {
+                "blockstate": "with(SVCCONTROLLPANEL_ARROW.OFF)"
+                },
+                {
+                "blockstate": "with(SVCCONTROLLPANEL_ARROW.LEFT)",
+                "retexture":{
+                    "arrow": "arrow_left"
+                    }
+                },
+                {
+                "blockstate": "with(SVCCONTROLLPANEL_ARROW.RIGHT)",
+                "retexture":{
+                    "arrow": "arrow_right"
+                }
+                }
+                ],
+            "y": 0
+        },
+        "svc/controlpanel/controlpanel_ground":
+        {
+            "textures": [
+                {
+                "blockstate": "with(SVCCONTROLLPANEL_GROUND.STONE)",
+                "retexture":{
+                    "0": "stone"
+                    }
+                },
+                {
+                    "blockstate":"with(SVCCONTROLLPANEL_GROUND.STONE_ANDESITE_SMOOTH)",
+                "retexture":{
+                    "0": "stone_andesite_smooth"
+                }
+                },
+                {
+                "blockstate": "with(SVCCONTROLLPANEL_GROUND.COBBLESTONE)",
+                "retexture":{
+                    "0": "cobblestone"
+                    }
+                },
+                {
+                    "blockstate": "with(SVCCONTROLLPANEL_GROUND.STONEBRICK)",
+                    "retexture":{
+                        "0": "stonebrick"
+                    }
+                },
+                {
+                    "blockstate": "with(SVCCONTROLLPANEL_GROUND.STONEBRICK_CARVED)",
+                    "retexture":{
+                        "0": "stonebrick_carved"
+                    }
+                },
+                {
+                    "blockstate": "with(SVCCONTROLLPANEL_GROUND.BRICK)",
+                    "retexture":{
+                        "0": "brick"
+                    }
+                },
+                {
+                    "blockstate": "with(SVCCONTROLLPANEL_GROUND.SANDSTONE)",
+                    "retexture":{
+                        "0": "sandstone"
+                    }
+                },
+                {
+                    "blockstate": "with(SVCCONTROLLPANEL_GROUND.RED_SANDSTONE)",
+                    "retexture":{
+                        "0": "red_sandstone"
+                    }
+                },
+                {
+                    "blockstate": "with(SVCCONTROLLPANEL_GROUND.CONCRETE_BLACK)",
+                    "retexture":{
+                        "0": "concrete_black"
+                    }
+                },
+                {
+                    "blockstate": "with(SVCCONTROLLPANEL_GROUND.CONCRETE_GRAY)",
+                    "retexture":{
+                        "0": "concrete_gray"
+                    }
+                },
+                {
+                    "blockstate": "with(SVCCONTROLLPANEL_GROUND.CONCRETE_SILVER)",
+                    "retexture":{
+                        "0": "concrete_silver"
+                    }
+                },
+                {
+                    "blockstate": "with(SVCCONTROLLPANEL_GROUND.CONCRETE_WHITE)",
+                    "retexture":{
+                        "0": "concrete_white"
+                    }
+                },
+                {
+                    "blockstate": "with(SVCCONTROLLPANEL_GROUND.CONCRETE_YELLOW)",
+                    "retexture":{
+                        "0": "concrete_yellow"
+                    }
+                },
+                {
+                    "blockstate": "with(SVCCONTROLLPANEL_GROUND.CONCRETE_POWDER_BLACK)",
+                    "retexture":{
+                        "0": "concrete_powder_black"
+                    }
+                },
+                {
+                    "blockstate": "with(SVCCONTROLLPANEL_GROUND.CONCRETE_POWDER_SILVER)",
+                    "retexture":{
+                        "0": "concrete_powder_silver"
+                    }
+                },
+                {
+                    "blockstate": "with(SVCCONTROLLPANEL_GROUND.CONCRETE_POWDER_WHITE)",
+                    "retexture":{
+                        "0": "concrete_powder_white"
+                }
+                }
+            ],
+            "y": 0
+        }
+    }
+}

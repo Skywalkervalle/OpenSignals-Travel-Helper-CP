@@ -1,0 +1,54 @@
+{
+    "systemProperties":{
+        "placementToolName":"SVCTRAVELPLACER",
+        "canLink": true,
+        "defaultHeight": 1,
+        "colors": [
+            16777215,
+            16761344    
+        ],
+        "redstoneOutputs": {
+            "config(svccontrollpanel.ON)": "powered"
+        },
+        "remoteRedstoneOutputs":{
+            "config(svccontrollpanel.ON)": "powered"  
+        }
+},
+    "seProperties": [
+    {
+        "name": "powered",
+        "defaultState": false,
+        "changeableStage": "APISTAGE_NONE_CONFIG",
+        "autoname": true
+    },
+    {
+        "name": "svccontrollpaneltype",
+        "enumClass": "SVCCONTROLLPANELTYPE",
+        "defaultState": "OFF",
+        "changeableStage": "GUISTAGE",
+        "autoname":false
+    },
+    {
+        "name": "svccontrollpanel",
+        "enumClass":"SVCCONTROLLPANEL",
+        "defaultState": "ON",
+        "changeableStage": "APISTAGE_NONE_CONFIG",
+        "autoname":false
+        
+    },
+    {
+        "name": "svccontrollpanel_ground",
+        "enumClass": "SVCCONTROLLPANEL_GROUND",
+        "defaultState": "OFF",
+        "autoname": false,
+        "changeableStage": "GUISTAGE"
+    },
+    {
+        "name": "svccontrollpanel_arrow",
+        "enumClass": "SVCCONTROLLPANEL_ARROW",
+        "defaultState": "OFF",
+        "autoname": false,
+        "changeableStage": "GUISTAGE"
+    }
+    ]
+}

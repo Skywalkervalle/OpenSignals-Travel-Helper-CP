@@ -93,10 +93,11 @@
         "dependencies": "check(SVCTRAVELTYPE.SVCBRAKE_INDICATOR)"
     },
     {
-        "name": "svccontrollpanel",
-        "enumClass": "SVCCONTROLLPANEL",
+        "name": "svcbrakeindicatordouble",
+        "enumClass": "SVCBRAKEINDICATORDOUBLE",
         "defaultState": "OFF",
-        "dependencies":"check(SVCTRAVELTYPE.SVCCONTROLLPANEL)"
+        "changeableStage": "APISTAGE_NONE_CONFIG",
+        "dependencies": "check(SVCTRAVELTYPE.SVCBRAKE_INDICATOR_DOUBLE)"
     }
     ]
 }
