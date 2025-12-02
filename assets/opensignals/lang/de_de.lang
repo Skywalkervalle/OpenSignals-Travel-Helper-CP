@@ -33,6 +33,7 @@ tile.controllpanel.name=Zp9 Bediensäule
 property.svccontrollpaneltype.name=Bediensäulentyp
 property.svccontrollpaneltype.desc=Wählen den Typ der Bediensäule.
 property.value.SVCCONTROLLPANEL=Bediensäule Klein
+property.svccontrollerpanel.name=Bediensäule
 
 property.svccontrollpanel_ground.name=Bodenmaterial
 property.svccontrollpanel_ground.desc=Wählen das Bodenmaterial der Bediensäule.

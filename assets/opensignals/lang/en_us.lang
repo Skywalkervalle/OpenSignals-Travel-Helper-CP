@@ -33,6 +33,7 @@ tile.controllpanel.name=Zp9 Control Column
 property.svccontrollpaneltype.name=Control Column Type
 property.svccontrollpaneltype.desc=Select the type of the control column.
 property.value.SVCCONTROLLPANEL=Small Control Column
+property.svccontrollerpanel.name=Control Column
 
 property.svccontrollpanel_ground.name=Ground Material
 property.svccontrollpanel_ground.desc=Select the ground material of the control column.
