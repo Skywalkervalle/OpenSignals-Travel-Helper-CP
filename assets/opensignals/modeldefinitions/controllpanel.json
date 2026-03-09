@@ -20,6 +20,7 @@
         "concrete_powder_black":"opensignals:blocks/svc/groundplate/concrete_powder_black",
         "concrete_powder_silver":"opensignals:blocks/svc/groundplate/concrete_powder_silver",
         "concrete_powder_white":"opensignals:blocks/svc/groundplate/concrete_powder_white",
+        "hardened_clay_black_cyan":"opensignals:blocks/svc/groundplate/hardened_clay_black_cyan",
         "arrow_left":"opensignals:blocks/svc/arrows/arrow_left",
         "arrow_right":"opensignals:blocks/svc/arrows/arrow_right"
         
@@ -159,6 +160,12 @@
                     "retexture":{
                         "0": "concrete_powder_white"
                 }
+                },
+                {
+                    "blockstate": "with(SVCCONTROLLPANEL_GROUND.HARDENED_CLAY_BLACK_CYAN)",
+                    "retexture":{
+                        "0": "hardened_clay_black_cyan"
+                    }
                 }
             ],
             "y": 0
