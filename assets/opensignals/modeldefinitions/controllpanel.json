@@ -30,7 +30,10 @@
         {
             "textures": [
             {
-                "blockstate": "with(SVCCONTROLLPANEL.ON)"
+                "blockstate": "with(SVCCONTROLLPANEL.OFF) && (with(SVCCONTROLLPANELTYPE.SVCCONTROLLPANEL) || !has(SVCCONTROLLPANELTYPE))"
+            },
+            {
+                "blockstate": "with(SVCCONTROLLPANEL.ON)  && (with(SVCCONTROLLPANELTYPE.SVCCONTROLLPANEL) || !has(SVCCONTROLLPANELTYPE))"
             },
             {
                 "blockstate": "with(SVCCONTROLLPANEL.ON) && hasandis(POWERED)",

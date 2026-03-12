@@ -48,7 +48,8 @@
     ],
         "SVCCONTROLLPANEL":
     [
-        "ON"
+        "ON",
+        "OFF"
     ],
     "SVCCONTROLLPANEL_ARROW":
     [
