@@ -6,7 +6,8 @@
         "lamp_travel_doted": "opensignals:blocks/svc/travel_lamps/lamp_travel_doted",
         "lamp_zp9":"opensignals:blocks/svc/travel_lamps/zp9",
         "lamp_red":"opensignals:blocks/lamps/lamp_red",
-        "arrow":"opensignals:blocks/svc/arrow"
+        "arrow":"opensignals:blocks/svc/arrow",
+        "lamp_zp10":"opensignals:blocks/svc/travel_lamps/zp10"
     },
     "models":
     {
@@ -27,7 +28,13 @@
                         "retexture": {
                             "travelindicator": "lamp_zp9"
                             }
-                        } 
+                        },
+                        {
+                        "blockstate": "with(SVCTRAVELINDICATOREXIT.ZP10) && (with(SVCTRAVELTYPE.SVCTRAVEL_INDICATOREXIT) || !has(SVCTRAVELTYPE))",
+                        "retexture": {
+                            "travelindicator": "lamp_zp10"
+                            }
+                        }
                     ],
                     "y": 0
             },
@@ -50,7 +57,14 @@
                             "lamp_travel_front": "lamp_zp9",
                             "lamp_travel_back": "lamp_zp9"
                             }
-                        }   
+                        },
+                        {
+                        "blockstate": "with(SVCTRAVELINDICATOR.ZP10) && (with(SVCTRAVELTYPE.SVCTRAVEL_INDICATOR) || !has(SVCTRAVELTYPE))",
+                        "retexture": {
+                            "lamp_travel_front": "lamp_zp10",
+                            "lamp_travel_back": "lamp_zp10"
+                            }
+                        }
                     ],
                     "y": 0
             },
@@ -82,6 +96,22 @@
                                 "lamp_travel_front": "lamp_travel",
                                 "lamp_travel_back": "lamp_travel_doted"
                                 }
+                        },
+                        {
+                        "blockstate": "with(SVCHORIZONTALINDICATORZP9.ZP10) && !with(SVCHORIZONTALINDICATOR.TRAVEL) && (with(SVCTRAVELTYPE.SVCHORIZONTAL_INDICATOR) || !has(SVCTRAVELTYPE))",
+                        "retexture": {
+                            "signal_front_Zp9": "lamp_zp10",
+                            "signal_back_Zp9": "lamp_zp10"
+                            }
+                        },                        
+                        {
+                            "blockstate": "with(SVCHORIZONTALINDICATORZP9.ZP10) && with(SVCHORIZONTALINDICATOR.TRAVEL) && (with(SVCTRAVELTYPE.SVCHORIZONTAL_INDICATOR) || !has(SVCTRAVELTYPE))",
+                            "retexture": {
+                                "signal_front_Zp9": "lamp_zp10",
+                                "signal_back_Zp9": "lamp_zp10",
+                                "lamp_travel_front": "lamp_travel",
+                                "lamp_travel_back": "lamp_travel_doted"
+                                }
                         }
                     ],
                     "y": 0
@@ -108,6 +138,19 @@
                     "blockstate": "with(SVCHORIZONTALINDICATOREXITZP9.ZP9) && with(SVCHORIZONTALINDICATOREXIT.TRAVEL) && (with(SVCTRAVELTYPE.SVCHORIZONTAL_INDICATOREXIT) || !has(SVCTRAVELTYPE))",
                     "retexture": {
                         "Zp9": "lamp_zp9",
+                        "travelindicator": "lamp_travel"
+                        }
+                    },
+                    {
+                    "blockstate": "with(SVCHORIZONTALINDICATOREXITZP9.ZP10) && !with(SVCHORIZONTALINDICATOREXIT.TRAVEL) && (with(SVCTRAVELTYPE.SVCHORIZONTAL_INDICATOREXIT) || !has(SVCTRAVELTYPE))",
+                    "retexture": {
+                        "Zp9": "lamp_zp10"
+                        }
+                    },
+                    {
+                    "blockstate": "with(SVCHORIZONTALINDICATOREXITZP9.ZP10) && with(SVCHORIZONTALINDICATOREXIT.TRAVEL) && (with(SVCTRAVELTYPE.SVCHORIZONTAL_INDICATOREXIT) || !has(SVCTRAVELTYPE))",
+                    "retexture": {
+                        "Zp9": "lamp_zp10",
                         "travelindicator": "lamp_travel"
                         }
                     }
@@ -142,6 +185,22 @@
                                 "lamp_travel_front": "lamp_travel",
                                 "lamp_travel_back": "lamp_travel_doted"
                             }
+                        },
+                        {
+                        "blockstate": "with(SVCVERTICALINDICATORZP9.ZP10) && !with(SVCVERTICALINDICATOR.TRAVEL) && (with(SVCTRAVELTYPE.SVCVERTICAL_INDICATOR) || !has(SVCTRAVELTYPE))",
+                        "retexture": {
+                            "signal_front_Zp9": "lamp_zp10",
+                            "signal_back_Zp9": "lamp_zp10"
+                            }
+                        },
+                        {
+                            "blockstate": "with(SVCVERTICALINDICATORZP9.ZP10) && with(SVCVERTICALINDICATOR.TRAVEL) && (with(SVCTRAVELTYPE.SVCVERTICAL_INDICATOR) || !has(SVCTRAVELTYPE))",
+                            "retexture": {
+                                "signal_front_Zp9": "lamp_zp10",
+                                "signal_back_Zp9": "lamp_zp10",
+                                "lamp_travel_front": "lamp_travel",
+                                "lamp_travel_back": "lamp_travel_doted"
+                            }
                         }
                     ],
                     "y": 0
@@ -170,7 +229,20 @@
                         "Zp9": "lamp_zp9",
                         "travelindicator": "lamp_travel"
                         }
-                    }
+                    },
+                    {
+                    "blockstate": "with(SVCVERTICALINDICATOREXITZP9.ZP10) && !with(SVCVERTICALINDICATOREXIT.TRAVEL) && (with(SVCTRAVELTYPE.SVCVERTICAL_INDICATOREXIT) || !has(SVCTRAVELTYPE))",
+                    "retexture": {
+                        "Zp9": "lamp_zp10"
+                        }
+                    },
+                    {
+                    "blockstate": "with(SVCVERTICALINDICATOREXITZP9.ZP10) && with(SVCVERTICALINDICATOREXIT.TRAVEL) && (with(SVCTRAVELTYPE.SVCVERTICAL_INDICATOREXIT) || !has(SVCTRAVELTYPE))",
+                    "retexture": {
+                        "Zp9": "lamp_zp10",
+                        "travelindicator": "lamp_travel"
+                        }
+                    }                    
                 ],
                 "y": 0
             },

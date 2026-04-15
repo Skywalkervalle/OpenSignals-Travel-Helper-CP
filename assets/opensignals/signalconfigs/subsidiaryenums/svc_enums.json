@@ -9,6 +9,11 @@
             "name": "SVCZP9",
             "showSubsidiaryAtSignal": "SIGNAL_GREEN",
             "isCountable": false
+        },
+            {
+            "name": "SVCZP10",
+            "showSubsidiaryAtSignal": "SIGNAL_GREEN",
+            "isCountable": false
         }
     ]
 }

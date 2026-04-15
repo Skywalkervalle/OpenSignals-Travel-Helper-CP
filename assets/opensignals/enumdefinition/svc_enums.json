@@ -15,7 +15,8 @@
     [
         "OFF",
         "TRAVEL",
-        "ZP9"
+        "ZP9",
+        "ZP10"
     ],
     "SVCBOTHINDICATORTRAVEL":
     [
@@ -25,7 +26,8 @@
     "SVCBOTHINDICATORZP9":
     [
         "OFF",
-        "ZP9"
+        "ZP9",
+        "ZP10"
     ],
     "SVCBRAKEINDICATOR":
     [
