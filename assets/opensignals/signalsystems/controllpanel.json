@@ -31,7 +31,7 @@
     {
         "name": "svccontrollpanel",
         "enumClass":"SVCCONTROLLPANEL",
-        "defaultState": "ON",
+        "defaultState": "OFF",
         "changeableStage": "APISTAGE_NONE_CONFIG",
         "autoname":false
         
