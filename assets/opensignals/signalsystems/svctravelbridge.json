@@ -1,0 +1,103 @@
+{
+    "systemProperties":{
+        "placementToolName":"SVCTRAVELPLACER",
+        "canLink": true,
+        "defaultHeight": 0,
+        "colors": [
+            16777215,
+            16761344    
+        ]
+},
+    "seProperties": [
+        {
+        "name": "svctraveltype",
+        "enumClass": "SVCTRAVELTYPE",
+        "defaultState": "OFF",
+        "changeableStage": "GUISTAGE"
+    },
+    {
+        "name": "svctravelindicator",
+        "enumClass": "SVCTRAVELINDICATOR",
+        "defaultState": "OFF",
+        "changeableStage": "APISTAGE_NONE_CONFIG",
+        "dependencies": "check(SVCTRAVELTYPE.SVCTRAVEL_INDICATOR)"
+    },
+    {
+        "name": "svctravelindicatorexit",
+        "enumClass": "SVCTRAVELINDICATOR",
+        "defaultState": "OFF",
+        "changeableStage": "APISTAGE_NONE_CONFIG",
+        "dependencies": "check(SVCTRAVELTYPE.SVCTRAVEL_INDICATOREXIT)"
+    },
+    {
+        "name": "svcverticalindicator",
+        "enumClass": "SVCBOTHINDICATORTRAVEL",
+        "defaultState": "OFF",
+        "changeableStage": "APISTAGE_NONE_CONFIG",
+        "dependencies": "check(SVCTRAVELTYPE.SVCVERTICAL_INDICATOR)"
+    },
+    {
+        "name": "svcverticalindicatorzp9",
+        "enumClass": "SVCBOTHINDICATORZP9",
+        "defaultState": "OFF",
+        "changeableStage": "APISTAGE_NONE_CONFIG",
+        "dependencies": "check(SVCTRAVELTYPE.SVCVERTICAL_INDICATOR)"
+    },
+    {
+        "name": "svcverticalindicatorexit",
+        "enumClass": "SVCBOTHINDICATORTRAVEL",
+        "defaultState": "OFF",
+        "changeableStage": "APISTAGE_NONE_CONFIG",
+        "dependencies": "check(SVCTRAVELTYPE.SVCVERTICAL_INDICATOREXIT)"
+    },
+    {
+        "name": "svcverticalindicatorexitzp9",
+        "enumClass": "SVCBOTHINDICATORZP9",
+        "defaultState": "OFF",
+        "changeableStage": "APISTAGE_NONE_CONFIG",
+        "dependencies": "check(SVCTRAVELTYPE.SVCVERTICAL_INDICATOREXIT)"
+    },
+    {
+        "name": "svchorizontalindicator",
+        "enumClass": "SVCBOTHINDICATORTRAVEL",
+        "defaultState": "OFF",
+        "changeableStage": "APISTAGE_NONE_CONFIG",
+        "dependencies": "check(SVCTRAVELTYPE.SVCHORIZONTAL_INDICATOR)"
+    },
+    {
+        "name": "svchorizontalindicatorzp9",
+        "enumClass": "SVCBOTHINDICATORZP9",
+        "defaultState": "OFF",
+        "changeableStage": "APISTAGE_NONE_CONFIG",
+        "dependencies": "check(SVCTRAVELTYPE.SVCHORIZONTAL_INDICATOR)"
+    },
+    {
+        "name": "svchorizontalindicatorexit",
+        "enumClass": "SVCBOTHINDICATORTRAVEL",
+        "defaultState": "OFF",
+        "changeableStage": "APISTAGE_NONE_CONFIG",
+        "dependencies": "check(SVCTRAVELTYPE.SVCHORIZONTAL_INDICATOREXIT)"
+    },
+    {
+        "name": "svchorizontalindicatorexitzp9",
+        "enumClass": "SVCBOTHINDICATORZP9",
+        "defaultState": "OFF",
+        "changeableStage": "APISTAGE_NONE_CONFIG",
+        "dependencies": "check(SVCTRAVELTYPE.SVCHORIZONTAL_INDICATOREXIT)"
+    },
+    {
+        "name": "svcbrakeindicator",
+        "enumClass": "SVCBRAKEINDICATOR",
+        "defaultState": "OFF",
+        "changeableStage": "APISTAGE_NONE_CONFIG",
+        "dependencies": "check(SVCTRAVELTYPE.SVCBRAKE_INDICATOR)"
+    },
+    {
+        "name": "svcbrakeindicatordouble",
+        "enumClass": "SVCBRAKEINDICATORDOUBLE",
+        "defaultState": "OFF",
+        "changeableStage": "APISTAGE_NONE_CONFIG",
+        "dependencies": "check(SVCTRAVELTYPE.SVCBRAKE_INDICATOR_DOUBLE)"
+    }
+    ]
+}

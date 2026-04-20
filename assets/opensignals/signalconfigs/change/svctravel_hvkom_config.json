@@ -1,5 +1,5 @@
 {
-    "currentSignals": ["svctravel"],
+    "currentSignals": ["svctravel", "svctravelbridge"],
     "nextSignals": ["hvkomsignal"],
     "savedPredicates": {
         "stop": "config(komexit.HP0) || config(komhome.HP0) || config(komhome1.HP0) || config(komhome1.HP0_ALTERNATE_RED) || config(komblock.HP0)",
