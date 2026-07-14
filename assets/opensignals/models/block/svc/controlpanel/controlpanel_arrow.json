@@ -1,8 +1,8 @@
 {
 	"credit": "Made with Blockbench by SkywalkerValle",
 	"textures": {
-		"particle": "opensignals:blocks/default/yellow",
-		"arrow": "opensignals:blocks/default/yellow"
+		"particle": "opensignals:blocks/svc/none",
+		"arrow": "opensignals:blocks/svc/none"
 	},
 	"elements": [
 		{
