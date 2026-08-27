@@ -20,7 +20,7 @@
         "concrete_powder_black":"opensignals:blocks/svc/groundplate/concrete_powder_black",
         "concrete_powder_silver":"opensignals:blocks/svc/groundplate/concrete_powder_silver",
         "concrete_powder_white":"opensignals:blocks/svc/groundplate/concrete_powder_white",
-        "hardened_clay_black_cyan":"opensignals:blocks/svc/groundplate/hardened_clay_black_cyan",
+        "hardened_clay_stained_cyan":"opensignals:blocks/svc/groundplate/hardened_clay_stained_cyan",
         "arrow_left":"opensignals:blocks/svc/arrows/arrow_left",
         "arrow_right":"opensignals:blocks/svc/arrows/arrow_right"
         
@@ -36,7 +36,7 @@
                 "blockstate": "with(SVCCONTROLLPANEL.ON)  && (with(SVCCONTROLLPANELTYPE.SVCCONTROLLPANEL) || !has(SVCCONTROLLPANELTYPE))"
             },
             {
-                "blockstate": "with(SVCCONTROLLPANEL.ON) && hasandis(POWERED)",
+                "blockstate": "with(SVCCONTROLLPANEL.ON) && hasandis(POWERED) && with(SVCCONTROLLPANELTYPE.SVCCONTROLLPANEL)",
                 "retexture": {
                 "lamp_zp9_o": "lamp_green"
                 }
@@ -48,16 +48,22 @@
         {
             "textures": [
                 {
-                "blockstate": "with(SVCCONTROLLPANEL_ARROW.OFF)"
+                "blockstate": "with(SVCCONTROLLPANEL_ARROW.OFF) && (with(SVCCONTROLLPANELTYPE.SVCCONTROLLPANEL) || !has(SVCCONTROLLPANELTYPE))"
                 },
                 {
-                "blockstate": "with(SVCCONTROLLPANEL_ARROW.LEFT)",
+                "blockstate": "with(SVCCONTROLLPANEL_ARROW.OFF) && with(SVCCONTROLLPANELTYPE.SVCCONTROLLPANEL)",
+                "retexture":{
+                    "arrow": "yellow"
+                    }
+                },
+                {
+                "blockstate": "with(SVCCONTROLLPANEL_ARROW.LEFT) && with(SVCCONTROLLPANELTYPE.SVCCONTROLLPANEL)",
                 "retexture":{
                     "arrow": "arrow_left"
                     }
                 },
                 {
-                "blockstate": "with(SVCCONTROLLPANEL_ARROW.RIGHT)",
+                "blockstate": "with(SVCCONTROLLPANEL_ARROW.RIGHT) && with(SVCCONTROLLPANELTYPE.SVCCONTROLLPANEL)",
                 "retexture":{
                     "arrow": "arrow_right"
                 }
@@ -68,6 +74,9 @@
         "svc/controlpanel/controlpanel_ground":
         {
             "textures": [
+                {
+                "blockstate": "with(SVCCONTROLLPANEL_GROUND.OFF)"
+                },                
                 {
                 "blockstate": "with(SVCCONTROLLPANEL_GROUND.STONE)",
                 "retexture":{
@@ -165,9 +174,9 @@
                 }
                 },
                 {
-                    "blockstate": "with(SVCCONTROLLPANEL_GROUND.HARDENED_CLAY_BLACK_CYAN)",
+                    "blockstate": "with(SVCCONTROLLPANEL_GROUND.HARDENED_CLAY_STAINED_CYAN)",
                     "retexture":{
-                        "0": "hardened_clay_black_cyan"
+                        "0": "hardened_clay_stained_cyan"
                     }
                 }
             ],

@@ -33,8 +33,11 @@
     "tile.controllpanel.name": "Zp9 Control Column",
     "property.svccontrollpaneltype.name": "Control Column Type",
     "property.svccontrollpaneltype.desc": "Select the type of the control column.",
+    "property.value.SVCCONTROLLPANEL": "Control Column Type",
     "property.svccontrollerpanel.name":"Control Colum",
-    "property.value.SVCCONTROLLPANEL": "Small Control Column",
+    "property.svccontrollpanel.name":"Control Colum",    
+    "property.value.svccontrollpanel": "Small Control Colum",
+    "property.svccontrollpanel.desc":"Control Colum",  
     
     "property.svccontrollpanel_ground.name": "Ground Material",
     "property.svccontrollpanel_ground.desc": "Select the ground material of the control column.",
@@ -54,6 +57,7 @@
     "property.value.CONCRETE_POWDER_BLACK": "Concrete Powder Black",
     "property.value.CONCRETE_POWDER_WHITE": "Concrete Powder White",
     "property.value.CONCRETE_POWDER_SILVER": "Concrete Powder Light Gray",
+    "property.value.HARDENED_CLAY_STAINED_CYAN":"Hardened Clay Cyan",
     
     "property.svccontrollpanel_arrow.name": "Direction Arrow",
     "property.svccontrollpanel_arrow.desc": "Select the direction of the arrow.",

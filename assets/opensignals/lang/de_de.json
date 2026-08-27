@@ -33,8 +33,11 @@
     "tile.controllpanel.name": "Zp9 Bediensäule",
     "property.svccontrollerpaneltype.name": "Bediensäulentyp",
     "property.svccontrollerpaneltype.desc": "Wählen den Typ der Bediensäule.",
+    "property.value.SVCCONTROLLPANEL": "Bediensäulentyp",
     "property.svccontrollerpanel.name":"Bediensäule",
-    "property.value.SVCCONTROLLPANEL": "Bediensäule Klein",
+    "property.svccontrollpanel.name":"Bediensäule",
+    "property.value.svccontrollpanel": "Bediensäule Klein",
+    "property.svccontrollpanel.desc":"Bediensäule",
     
     "property.svccontrollpanel_ground.name": "Bodenmaterial",
     "property.svccontrollpanel_ground.desc": "Wählen das Bodenmaterial der Bediensäule.",
@@ -53,7 +56,8 @@
     "property.value.CONCRETE_YELLOW": "Beton Gelb",
     "property.value.CONCRETE_POWDER_BLACK": "Betonpulver Schwarz",
     "property.value.CONCRETE_POWDER_WHITE": "Betonpulver Weiß",
-    "property.value.CONCRETE_POWDER_SILVER": "Betonpulver Silber",
+    "property.value.CONCRETE_POWDER_SILVER": "Betonpulver Hellgrau",
+    "property.value.HARDENED_CLAY_STAINED_CYAN":"Gehärteter Ton Cyan",
 
     "property.svccontrollpanel_arrow.name": "Richtungspfeil",
     "property.svccontrollpanel_arrow.desc": "Wählen die Richtung des Pfeils.",
